@@ -13,6 +13,9 @@ body {
   font-size: 14px;
   line-height: 26px;
 }
+.shrift {
+  font-family: "Open Sans";
+}
 section.team-van {
   margin-bottom: 105px;
 }
@@ -25,10 +28,17 @@ nav.main-nav {
 .team-tu {
   float: left;
   margin-right: 30px;
+  text-align: justify;
 }
 
 .team-tu:nth-child(3n) {
   margin-right: 0px;
+}
+li:hover .vit-vul-gut {
+  background-color: #7fd9c7;
+}
+li:hover .vit-vul {
+  background-color: #1abc9c;
 }
 .tem-list-tu {
   margin-top: 0px;
@@ -69,19 +79,22 @@ img {
   height: auto;
 }
 .tekst {
+  font-size: 18px;
+  line-height: 26px;
   margin-top: 0px;
   font-weight: 600;
 }
 .tekst-tu {
-  margin-top: 0px;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: 400;
+  margin-top: 0px;
 }
-.site-navigation {
-}
+
 .site-navigation a {
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 11px;
   color: #1f1212;
 }
@@ -104,12 +117,6 @@ img {
   font-weight: 900;
   text-transform: uppercase;
   color: #ffffff;
-}
-.vit-vul.lot {
-  background-color: #1abc9c;
-}
-.vit-vul-gut.wel {
-  background-color: #7fd9c7;
 }
 .vit-vul-gut {
   padding-left: 12px;
@@ -192,21 +199,20 @@ h2::after {
   display: inline-block;
 }
 .donlod-tu {
+  font-size: 16px;
+  line-height: 26px;
   text-align: center;
   margin: 0px;
-  padding-left: 42px;
-  padding-top: 19px;
-  padding-bottom: 20px;
-  padding-right: 42px;
+  padding-left: 43px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 43px;
   background-color: #4ec6ab;
   color: #ffffff;
   font-weight: 300;
 }
-.team-list-imag {
-  filter: grayscale(0);
-}
-.team-list-imag:hover {
-  filter: grayscale(50);
+button.donlod-tu {
+  border-radius: 6px;
 }
 img {
   display: block;
