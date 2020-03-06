@@ -116,35 +116,32 @@ img {
 }
 
 h2 {
+  position: relative;
   margin-top: 0px;
   text-align: center;
   font-size: 48px;
-
+  line-height: 1;
   text-transform: uppercase;
   font-weight: 900;
-  margin-bottom: 122px;
-}
-.hhh {
-  position: relative;
-  /* box-shadow: 0 0 2px 2px rgb(0, 0, 0); */
+  margin-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .container {
   width: 1110px;
   margin: auto;
 }
-.hhh::after {
+h2::after {
   position: absolute;
   width: 165px;
   height: 8px;
   display: inline-block;
   content: "";
   background-color: #1abc9c;
-
-  z-index: 10;
-  top: 65px;
-  left: 472px;
-  /* transform: translate(-50% -50%); */
+  bottom: 0px;
+  top: 50%x;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .site-navigation li {
   margin-right: 35px;
