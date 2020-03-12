@@ -17,9 +17,7 @@ body {
 .shrift {
   font-family: "Open Sans";
 }
-section.team-van {
-  margin-bottom: 80px;
-}
+
 nav.main-nav {
   margin-top: 38px;
   margin-bottom: 75px;
@@ -49,9 +47,7 @@ li:hover .vit-vul {
   margin-bottom: 81px;
   padding: 0px;
 }
-.team-title {
-  margin-bottom: 92px;
-}
+
 .team-list-item {
   position: relative;
   float: left;
@@ -82,12 +78,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.tekst {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-top: 0px;
-  font-weight: 600;
-}
+
 .tekst-tu {
   /* display: block;
   max-width: 100%;
@@ -111,6 +102,7 @@ img {
   padding: 0px;
   margin: 0px;
   border: 0px;
+  margin-bottom: 80px;
 }
 .tem-list-tu {
   list-style: none;
@@ -143,37 +135,58 @@ img {
 }
 
 h2 {
-  margin-top: 0px;
+  position: relative;
   text-align: center;
   font-size: 48px;
-  line-height: 2;
+  line-height: 1.5;
   text-transform: uppercase;
   font-weight: 900;
+  padding-bottom: 30px;
+  margin: 0px;
+  margin-bottom: 90px;
+}
+h2::after {
+  position: absolute;
+  display: inline-block;
+  width: 164px;
+  height: 7px;
+  content: "";
+  background-color: #1abc9c;
+  bottom: 0px;
+  top: 50%x;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .container {
   width: 1110px;
   margin: auto;
 }
 
-.tekst::after {
-  display: block;
-  margin: 15px;
-  width: 136px;
-  height: 3px;
-  content: "";
-  background-color: #1abc9c;
-  margin-top: 8px;
-  margin-left: 0px;
+.tekst {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 50px;
+  font-weight: 600;
+  padding-bottom: 13px;
+  margin: 0;
+  margin-bottom: 26px;
 }
 
-h2::after {
+.tekst::after {
+  position: absolute;
+  width: 136px;
+  height: 3px;
   display: block;
-  width: 164px;
-  height: 7px;
   content: "";
   background-color: #1abc9c;
-  margin: auto;
+  margin-top: 10px;
+
+  /* top: 50%x;
+  left: 50%;
+  transform: translateX(-50%); */
 }
+
 .site-navigation li:nth-of-type(6n) {
   margin: 0px;
 }
@@ -191,20 +204,12 @@ ul.site-navigation {
   margin-bottom: 0px;
   padding: 0px;
 }
-/* .logo::first-letter {
-  color: #1abc9c;
-  font-weight: 900;
-} */
+
 .logo {
   float: left;
-  /* text-decoration: none;
-  font-size: 30px;
-  line-height: 32px;
-  color: #555252; */
-  /* margin-top: 38px; */
-  /* text-transform: uppercase; */
 }
-#boy {
+
+.boy:hover {
   color: #29c0a3;
 }
 .imge {
@@ -241,7 +246,7 @@ img {
   width: 255px;
   height: 282px;
 }
-nav.vit {
+div.vit {
   width: 100%;
   position: absolute;
   z-index: 2;
