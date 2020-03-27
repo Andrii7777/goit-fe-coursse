@@ -23,10 +23,7 @@ body {
   width: 100%;
   height: 88px;
 }
-.emedge {
-  height: 100%;
-  width: 100%;
-}
+
 /* section.team-van {
   margin-bottom: 100px;
 } */
@@ -68,6 +65,9 @@ li:hover .vit-vul {
 .team-list-item:nth-of-type(4n) {
   margin-bottom: 0px;
 }
+.site-navigation li:nth-of-type(6n) {
+  margin-right: 0;
+}
 
 img {
   float: left;
@@ -88,6 +88,7 @@ img {
   padding: 0px;
   margin: 0px;
   border: 0px;
+  padding-bottom: 100px;
 }
 
 .vit p {
@@ -181,16 +182,20 @@ img {
 }
 
 .eme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-
-  max-width: 1600px;
-  max-height: 600px;
-  margin: auto;
-  margin-bottom: 100px;
+  /* position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; */
 }
 /* .derru {
+  top: 40px;
+  display: inline-block;
   position: absolute;
-  width: 1600px;
+  text-align: center;
 } */
 .team-list-itemet {
   position: relative;
@@ -219,8 +224,8 @@ nav.vit {
   /* background-color: transparent;
   background-color: tomato;
   background-position: center; */
-  top: 195px;
-  left: 432px;
+  top: -102px;
+  left: 200px;
   z-index: 2;
 }
 .buta {
@@ -241,8 +246,8 @@ nav.vit {
   /* background-color: transparent;
   background-color: tomato;
   background-position: center; */
-  top: 295px;
-  left: 432px;
+  top: -6px;
+  left: 200px;
   z-index: 2;
 }
 .but-git {
@@ -260,8 +265,8 @@ nav.vit {
   background-color: transparent;
   /* background-color: tomato; */
   background-position: center;
-  top: 240px;
-  left: 227px;
+  top: -70px;
+  left: 23px;
   z-index: 2;
   background-color: #1abc9c;
 }
@@ -272,6 +277,7 @@ nav.vit {
   border: none;
   padding: 0px;
   margin: 0px;
+  margin-top: 30px;
   width: 104px;
   height: 104px;
   background-image: url("../img/11.png");
@@ -279,10 +285,9 @@ nav.vit {
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
-  top: 240px;
+  top: -99px;
   background-color: #1abc9c;
-  left: 1270;
-  right: 227px;
+  right: 25px;
 
   z-index: 2;
 }
@@ -374,7 +379,7 @@ nav.vit {
   width: 100%;
   height: 100%;
   background-color: rgb(0, 0, 2);
-
+  z-index: 1;
   opacity: 0.522;
 }
 .overlay {
@@ -441,6 +446,8 @@ button:hover.cart-button {
 .adres {
   font-family: "Open Sans";
   border: 0px;
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -453,18 +460,23 @@ button:hover.cart-button {
   font-size: 400;
   color: #46bfa9;
 }
-/* .darr {
-  background-color: rgb(233, 240, 253);
-} */
+
 .fful {
   background-color: rgb(233, 240, 253);
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
-/* .footer {
-  margin-top: 1300px;
+.emedge {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.derru {
+  display: inline-block;
   position: absolute;
-} */
-
+  text-align: center;
+}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
