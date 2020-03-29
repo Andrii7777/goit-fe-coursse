@@ -4,7 +4,10 @@
 }
 html {
   box-sizing: border-box;
-  overflow: hidden;
+}
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 *,
 *::before,
