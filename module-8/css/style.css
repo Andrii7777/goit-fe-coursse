@@ -45,6 +45,7 @@ h3 {
   position: relative;
   width: 320px;
   margin: auto;
+  overflow: hidden;
 }
 li {
   text-align: center;
@@ -78,7 +79,7 @@ li {
 .cart-abs {
   position: absolute;
   bottom: 0px;
-  top: 68%;
+  top: 70%;
   left: 70%;
   /* transform: translateX(-50%); */
 }
