@@ -5,11 +5,7 @@
 html {
   box-sizing: border-box;
 }
-html::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-*,
+
 *::before,
 *::after {
   box-sizing: inherit;
@@ -43,13 +39,18 @@ h3 {
   margin-bottom: 15px;
 }
 .page-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 540px;
+  position: relative;
   padding: 0;
+  height: 0;
 }
 .main-nav {
   position: relative;
   width: 320px;
   margin: auto;
-  /* overflow: hidden; */
+  height: 0;
 }
 li {
   text-align: center;
@@ -60,14 +61,7 @@ li {
   padding: 0 10px;
   margin: auto;
 }
-/* @media (max-width: 700px) {
-  body {
-  }
-}
-@media (max-width: 400px) {
-  body {
-  }
-} */
+
 .list {
   margin: 0;
   padding: 0;
@@ -122,8 +116,8 @@ img {
   position: relative;
 }
 
-.ses {
-  position: relative;
+.sesee {
+  position: absolute;
   width: 320px;
   height: 540px;
   background-image: url("../img/Vector\ Smart\ Object.png");
@@ -272,11 +266,20 @@ h1 {
 .fut {
   text-align: center;
 }
+.dde {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  top: 0px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: 760px;
-
-    margin: auto;
+    padding: 0px;
   }
   .list {
     display: flex;
@@ -302,13 +305,33 @@ h1 {
     width: 190px;
   }
 
-  .ses {
+  .sesee {
+    position: absolute;
     width: 768px;
     height: 700px;
     background-image: url("../img/Vector\ 2\ Smart\ Object.png");
     background-color: rgb(26, 25, 21);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: -2; */
+  }
+  .dde {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 0px;
+    width: 765px;
+  }
+  .page-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 700px;
   }
   .main-nav {
+    /* height: 0; */
     width: 768px;
   }
   h1 {
@@ -343,12 +366,14 @@ h1 {
     transform: none;
   }
 }
+
 @media (min-width: 942px) {
   .container {
     width: 100%;
-    height: auto;
-    margin: auto;
+    /* height: auto;
+    margin: auto; */
   }
+
   .team-van {
     text-align: center;
   }
@@ -370,7 +395,7 @@ h1 {
     order: 4;
   }
   .list-item {
-    width: 235px;
+    width: 230px;
   }
   .bub {
     width: 197px;
@@ -386,16 +411,37 @@ h1 {
     display: block;
     margin: auto;
   } */
-  .ses {
-    width: 1440px;
+  .sesee {
+    position: absolute;
+    width: 100%;
     height: 700px;
     background-image: url("../img/Vector\ Smart\ 1\ Object.png");
     background-color: rgb(26, 25, 21);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: -2; */
   }
-
-  .main-nav {
+  .page-header {
+    display: flex;
+    margin-bottom: 700px;
+  }
+  .dde {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 0px;
     width: 1440px;
+    z-index: ;
+  }
+  .main-nav {
+    /* height: 0; */
+    /* position: absolute; */
+    width: 1440px;
+    margin: 0 auto;
+    /* z-index: 3; */
   }
   h1 {
     top: 220px;
