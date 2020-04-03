@@ -17,7 +17,7 @@ body {
 .nave {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 22px;
   padding: 0;
   text-transform: uppercase;
@@ -38,11 +38,17 @@ body {
 .site-navigation {
   display: flex;
   width: 490px;
-  justify-content: space-between;
   padding: 0px;
   margin: 0px;
   list-style: none;
 }
+.site-navigation li {
+  margin-right: 50px;
+}
+.site-navigation li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
 .team-list-i {
   display: flex;
   padding: 0px;
@@ -251,6 +257,7 @@ li .boy {
   text-transform: uppercase;
 }
 .imp {
+  padding-left: 12px;
   color: #b3b3b3;
   width: 230px;
   height: 40px;
