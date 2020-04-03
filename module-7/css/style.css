@@ -87,6 +87,9 @@ body {
   margin-bottom: 80px;
   text-align: center;
 }
+.boy {
+  transition: color 400ms ease-in;
+}
 
 .site-navigation :hover {
   color: #fed136;
@@ -136,13 +139,13 @@ textarea::placeholder {
   font-weight: 600;
   color: #bbbbbb;
   /* padding-left: 20px; */
-  padding-top: 20px;
 }
 textarea {
   padding-left: 20px;
   /* margin-left: 30px; */
   width: 455px;
   height: 212px;
+  padding-top: 20px;
 }
 .in {
   display: flex;
@@ -248,11 +251,11 @@ textarea {
       url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 .team-rayt {
-  /* background: #222222; */
-  position: relative;
+  display: flex;
+  /* position: relative; */
   background-image: url(../img/homework-07.png);
   /* min-height: 677px; */
-  width: 100%;
+  /* width: 100%; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
