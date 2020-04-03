@@ -38,9 +38,16 @@ body {
   margin: 0;
   display: flex;
   list-style: none;
-  justify-content: space-between;
+
   width: 480px;
 }
+.site-navigation li {
+  margin-right: 37px;
+}
+.site-navigation li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
 .site-navigation a {
   font-family: "Montserrat";
   line-height: 1.2;
@@ -112,8 +119,11 @@ textarea[type="message"]:invalid {
   text-transform: uppercase;
   font-weight: 600;
   color: #bbbbbb;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-top: 20px;
+}
+input {
+  padding-left: 20px;
 }
 .in input {
   /* margin-bottom: 28px; */
@@ -125,11 +135,12 @@ textarea::placeholder {
   text-transform: uppercase;
   font-weight: 600;
   color: #bbbbbb;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-top: 20px;
 }
 textarea {
-  margin-left: 30px;
+  padding-left: 20px;
+  /* margin-left: 30px; */
   width: 455px;
   height: 212px;
 }
@@ -137,6 +148,8 @@ textarea {
   display: flex;
   justify-content: center;
   margin-bottom: 28px;
+  width: 940px;
+  justify-content: space-between;
 }
 .nave {
   font-family: "Montserrat";
@@ -238,7 +251,7 @@ textarea {
   /* background: #222222; */
   position: relative;
   background-image: url(../img/homework-07.png);
-  min-height: 677px;
+  /* min-height: 677px; */
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -262,6 +275,7 @@ textarea {
   background-color: #fed136;
   border: 0;
   color: #fffcf2;
+  margin-bottom: 116px;
 }
 
 .wewer {
