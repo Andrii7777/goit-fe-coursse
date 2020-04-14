@@ -70,7 +70,7 @@ li {
   margin: 0 auto;
 }
 .page-header {
-  background-image: url("/img/Vector\ Smart\ Object.png");
+  background-image: url("../img/VectorSmartObject.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,10 +118,7 @@ li {
   padding: 0;
   list-style: none;
 }
-.block {
-  margin: 0;
-  margin-left: 50px;
-}
+
 .cart {
   display: inline-block;
   position: relative;
@@ -219,8 +216,12 @@ li {
     width: 670px;
   }
   .page-header {
-    background-image: url("/img/Vector\ 2\ Smart\ Object.png");
+    background-image: url("../img/Vector2Smart\ Object.png");
     background-color: rgb(26, 25, 21);
+  }
+  .block {
+    margin: 0;
+    margin-left: 50px;
   }
   .main-nav {
     display: flex;
@@ -289,7 +290,7 @@ li {
     width: 944px;
   }
   .page-header {
-    background-image: url("/img/Vector\ Smart\ 1\ Object.png");
+    background-image: url("../img/VectorSmart1\ Object.png");
     background-color: rgb(26, 25, 21);
   }
   .main-nav {
@@ -368,5 +369,8 @@ li {
     border-style: solid;
     border-color: #ffffff;
     border-radius: 20px;
+  }
+  .block {
+    margin: 0;
   }
 }
