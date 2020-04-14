@@ -70,7 +70,7 @@ li {
   margin: 0 auto;
 }
 .page-header {
-  background-image: url("../img/Vector\ Smart\ Object\ mobi.png");
+  background-image: url("/img/Vector\ Smart\ Object.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -219,7 +219,7 @@ li {
     width: 670px;
   }
   .page-header {
-    background-image: url("../img/Vector\ 2\ Smart\ Object\ table.png");
+    background-image: url("/img/Vector\ 2\ Smart\ Object.png");
     background-color: rgb(26, 25, 21);
   }
   .main-nav {
@@ -289,7 +289,7 @@ li {
     width: 944px;
   }
   .page-header {
-    background-image: url("../img/Vector\ Smart\ 1\ Object\ desktop.png");
+    background-image: url("/img/Vector\ Smart\ 1\ Object.png");
     background-color: rgb(26, 25, 21);
   }
   .main-nav {
