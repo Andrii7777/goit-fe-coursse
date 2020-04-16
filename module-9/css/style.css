@@ -1,495 +1,299 @@
-@viewport {
-  width: device-width;
-  zoom: 1;
-}
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-body {
-  font-family: "Roboto";
-  font-family: "Open Sans";
-  color: #555252;
-  font-size: 14px;
-  line-height: 1.5;
-}
 
-.tecst {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #333333;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 18px;
-  padding-top: 70px;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  color: #333333;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 1.2;
-  margin-bottom: 15px;
-}
-.page-header {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 540px;
-  position: relative;
-  padding: 0;
-  height: 0;
-}
-.main-nav {
-  position: relative;
-  width: 320px;
-  margin: auto;
-  height: 0;
-}
-li {
-  text-align: center;
-}
-
-.container {
-  width: 320px;
-  padding: 0 10px;
-  margin: auto;
-}
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.cart {
-  display: inline-block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 20px;
-}
-.cart-abs {
-  position: absolute;
-  bottom: 0px;
-  top: 70%;
-  left: 70%;
-  /* transform: translateX(-50%); */
-}
-.cart-tu {
-  display: inline-block;
-  position: relative;
-}
-
-.cart-three {
-  position: absolute;
-  bottom: 0px;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.tekst-tu {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 1.2;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 218px;
-  margin-bottom: 28px;
-}
-img {
-  width: 100%;
-  height: 100%;
-}
-.visually {
-  text-transform: uppercase;
-}
-.main-nav {
-  position: relative;
-}
-
-.sesee {
-  position: absolute;
-  width: 320px;
-  height: 540px;
-  background-image: url("../img/Vector\ Smart\ Object.png");
+.home-page {
+  background-image: url("../img/image/Vector\ Smart\ Object\ mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.conteer {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  position: absolute;
   text-align: center;
+}
+
+.button {
   font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
   line-height: 1.2;
-  padding: 0;
+  text-align: center;
   width: 90px;
   height: 38px;
-  border: 0;
-  color: #ffffff;
-  /* border-radius: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-radius 300ms linear;
+}
+
+.button:hover {
   border-style: solid;
   border-width: 2px;
-  border-color: rgb(255, 255, 255); */
+  border-radius: 20px;
+  border-color: #ffffff;
   background-color: rgba(26, 25, 21, 0);
-  right: 86px;
-  top: 20px;
 }
-.contee {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  position: absolute;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.2;
-  padding: 0;
-  width: 90px;
-  height: 38px;
-  border: 0;
-  color: #ffffff;
-  /* border-radius: 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255); */
-  background-color: rgba(26, 25, 21, 0);
-  /* left: 64px; */
-  top: 20px;
-  right: 162px;
+
+.logo {
+  margin-top: 8rem;
+  margin-bottom: 2.5rem;
 }
-.contee:hover {
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255);
-}
-.conteer:hover {
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 255, 255);
-}
-.buut-c {
-  position: absolute;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  width: 282px;
-  height: 42px;
-  border: 0;
-  color: #ffffff;
-  border-radius: 20px;
-  background-color: rgb(255, 78, 80);
-  bottom: 0px;
-  top: 362px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.wer {
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  font-weight: 300;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  width: 220px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 18px;
-  line-height: 1.2;
-  bottom: 0;
-  top: 306px;
-  left: 50%;
-  transform: translate(-50%);
-}
-h1 {
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  width: 291px;
-  color: rgb(255, 255, 255);
+
+.main-heading {
   font-size: 30px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
   line-height: 1.2;
-  font-weight: 700;
-  text-transform: uppercase;
-  bottom: 0;
-  top: 225px;
-  left: 50%;
-  transform: translate(-50%);
-}
-.tecsst {
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: lighter;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.search {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  transition: border-radius 300ms linear;
+}
+
+.search:active,
+.search:hover {
+  border-radius: 10px;
+}
+
+.best-partner {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
   text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  line-height: 1.5;
-  font-weight: 700;
-  text-transform: uppercase;
-  bottom: 0;
-  top: 172px;
-  left: 50%;
-  transform: translate(-50%);
-}
-.bub {
-  color: #ff4e50;
-  width: 280px;
-  height: 40px;
   margin: 0;
-  padding: 0;
-  margin-bottom: 48px;
-  background-color: rgba(26, 25, 21, 0);
+  margin-bottom: 12px;
+  margin-top: 66px;
+}
+
+.card-info {
+  text-align: center;
+}
+
+.card-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.name {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.info-partner {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #666666;
+  line-height: 1.2;
+  text-align: center;
+  width: 218px;
+  margin: 0 auto;
+}
+
+.other {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #ff4d4f;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 56px;
+  border: none;
   border-style: solid;
   border-width: 2px;
-  border-radius: 20px;
   border-color: #ff4e50;
-  font-size: 14px;
-  line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: border-radius 300ms linear;
 }
 
-.fut {
-  text-align: center;
-}
-.dde {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  text-align: center;
-  margin: 0 auto;
-  top: 0px;
+.other:active,
+.other:hover {
+  border-radius: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    width: 760px;
-    padding: 0px;
-  }
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .one {
-    order: 1;
-  }
-  .two {
-    order: 3;
-  }
-  .three {
-    order: 2;
-  }
-  .four {
-    order: 4;
-  }
-  .list-item {
-    width: 256px;
-  }
-  .bub {
-    width: 190px;
+@media (max-width: 767px) {
+  .card-info [class*="col-"]:not(:last-child) {
+    margin-bottom: 20px;
   }
 
-  .sesee {
-    position: absolute;
-    width: 768px;
-    height: 700px;
-    background-image: url("../img/Vector\ 2\ Smart\ Object.png");
-    background-color: rgb(26, 25, 21);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* z-index: -2; */
+  .navigation {
+    margin-top: 30px;
   }
-  .dde {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    top: 0px;
-    width: 765px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .home-page {
+    background-image: url("../img/image/Vector\ Smart\ Object\ Tablet.jpg");
   }
-  .page-header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 700px;
+
+  .navigation {
+    margin-top: 40px;
+    margin-bottom: 140px;
   }
-  .main-nav {
-    /* height: 0; */
-    width: 768px;
+
+  .logo {
+    margin: 0;
   }
-  h1 {
-    top: 220px;
-    width: 503px;
+
+  .login-button {
+    margin-top: 0;
+  }
+
+  .main-heading {
     font-size: 52px;
+    margin-bottom: 30px;
   }
-  .wer {
+
+  .info {
     font-size: 24px;
-    width: 404px;
-    top: 365px;
+    margin-bottom: 30px;
   }
-  .buut-c {
-    height: 40px;
-    width: 230px;
-    top: 426px;
+
+  .search {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 230px;
   }
-  .conn {
-    width: 172px;
+
+  .card-info {
+    margin-bottom: 40px;
   }
-  .conteer {
-    top: 40px;
-    right: 50px;
+
+  .card-info [class*="col-"]:nth-child(odd) {
+    margin-bottom: 56px;
   }
-  .contee {
-    top: 40px;
-    right: 135px;
+
+  .best-partner {
+    margin-bottom: 30px;
   }
-  .tecsst {
-    top: 42px;
-    left: 50px;
-    transform: none;
+
+  .first {
+    order: -2;
+  }
+
+  .third {
+    order: -1;
+  }
+
+  .other {
+    padding-left: 26px;
+    padding-right: 26px;
+    margin: 0;
+    margin-bottom: 40px;
   }
 }
 
-@media (min-width: 942px) {
-  .container {
-    width: 100%;
-    /* height: auto;
-    margin: auto; */
+@media (min-width: 1200px) {
+  .home-page {
+    background-image: url("../img/image/Vector\ Smart\ Object\ Desctop.jpg");
   }
 
-  .team-van {
-    text-align: center;
+  .best-partner {
+    margin-bottom: 30px;
   }
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+  .navigation {
+    margin-top: 38px;
+    margin-bottom: 140px;
   }
-  .one {
-    order: 1;
+
+  .logo {
+    margin: 0;
   }
-  .two {
-    order: 3;
+
+  .login-button {
+    margin-top: 0;
   }
-  .three {
-    order: 2;
-  }
-  .four {
-    order: 4;
-  }
-  .list-item {
-    width: 230px;
-  }
-  .bub {
-    width: 197px;
-    margin-bottom: 72px;
-  }
-  .container.fut {
-    padding-top: 35px;
-  }
-  .tekst-tu {
-    margin-bottom: 0px;
-  }
-  /* .sese {
-    display: block;
-    margin: auto;
-  } */
-  .sesee {
-    position: absolute;
-    width: 100%;
-    height: 700px;
-    background-image: url("../img/Vector\ Smart\ 1\ Object.png");
-    background-color: rgb(26, 25, 21);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* z-index: -2; */
-  }
-  .page-header {
-    display: flex;
-    margin-bottom: 700px;
-  }
-  .dde {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    top: 0px;
-    width: 1440px;
-    z-index: ;
-  }
-  .main-nav {
-    /* height: 0; */
-    /* position: absolute; */
-    width: 1440px;
-    margin: 0 auto;
-    /* z-index: 3; */
-  }
-  h1 {
-    top: 220px;
-    width: 503px;
+
+  .main-heading {
     font-size: 52px;
+    margin-bottom: 30px;
   }
-  .wer {
+
+  .info {
     font-size: 24px;
-    width: 404px;
-    top: 365px;
+    margin-bottom: 30px;
   }
-  .buut-c {
-    height: 40px;
-    width: 230px;
-    top: 426px;
-  }
-  .conn {
-    width: 172px;
-  }
-  .conteer {
-    top: 40px;
-    right: 250px;
-  }
-  .contee {
-    top: 40px;
-    right: 335px;
-  }
-  .tecsst {
-    top: 42px;
-    left: 250px;
-    transform: none;
-  }
-}
 
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-  position: absolute;
+  .search {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 230px;
+    cursor: pointer;
+  }
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+  .card-info {
+    margin-bottom: 40px;
+  }
 
-  white-space: nowrap;
+  .first {
+    order: -2;
+  }
 
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  .third {
+    order: -1;
+  }
+
+  .other {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    margin-bottom: 74px;
+    cursor: pointer;
+  }
 }
