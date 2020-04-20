@@ -160,6 +160,11 @@ html {
   background-color: transparent;
   transition: border-radius 300ms linear;
 }
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
 
 .other:active,
 .other:hover {
@@ -210,12 +215,21 @@ html {
     margin-bottom: 230px;
   }
 
-  .card-info {
+  /* .card-info {
     margin-bottom: 40px;
-  }
+  } */
 
   .card-info [class*="col-"]:nth-child(odd) {
     margin-bottom: 56px;
+  }
+  .card-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
   .best-partner {
@@ -231,9 +245,11 @@ html {
   }
 
   .other {
+    display: flex;
+    align-items: center;
     padding-left: 26px;
     padding-right: 26px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 40px;
   }
 }
@@ -241,6 +257,11 @@ html {
 @media (min-width: 1200px) {
   .home-page {
     background-image: url("../img/image/Vector\ Smart\ Object\ Desctop.jpg");
+  }
+  .card-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
 
   .best-partner {
