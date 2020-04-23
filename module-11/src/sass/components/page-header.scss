@@ -1,14 +1,14 @@
 .page-header {
   width: 100%;
   height: 1000px;
-  background-image: url('/build/images/Layer15.png');
+  background-image: url('../images/Layer15.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     & {
-      background-image: url('/build/images/Layer15@2x.png');
+      background-image: url('../images/Layer15@2x.png');
     }
   }
 
