@@ -168,31 +168,9 @@ body {
 .section-team__wrapper {
   list-style: none;
 }
-.section-content__icon-cloks {
-  background-image: url("../img/icon-cloks.svg");
-}
-.section-content__graph {
-  background-image: url("../img/graph.svg");
-}
-.section-content__computer {
-  background-image: url("../img/computer.svg");
-}
-.section-content__book {
-  background-image: url("../img/book.svg");
-}
-.section-content__home {
-  background-image: url("../img/home.svg");
-}
+
 .section-content__image {
-  background-image: url("../img/image.svg");
-}
-.property {
-  display: inline-block;
-  width: 32px;
-  height: 31px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  fill: #95e1d3;
   margin-right: 28px;
 }
 
