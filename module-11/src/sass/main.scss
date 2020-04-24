@@ -2,6 +2,7 @@
  * Все паршалы импортировать в этот файл
  */
 @import 'helpers/variables';
+@import 'helpers/visually';
 @import 'normalize';
 @import 'base';
 
@@ -11,3 +12,6 @@
 @import 'components/section-content';
 @import 'components/container';
 @import 'components/section-team';
+@import 'components/content__item';
+@import 'components/footer';
+@import 'components/form';
