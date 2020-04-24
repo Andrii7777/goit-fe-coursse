@@ -7,95 +7,22 @@
   background-repeat: no-repeat;
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    & {
-      background-image: url('../images/Layer15@2x.png');
-    }
+    background-image: url('../images/Layer15@2x.png');
   }
+}
 
-  &__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding-top: 35px;
+.page-header_site-navigation__link {
+  position: relative;
+  padding-bottom: 12px;
+  transition: color 200ms ease-in;
+
+  &:hover::after {
+    background-color: $color-orange;
   }
-  &_site-navigation a {
-    font-family: $main-font-stack;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 400;
+  &:hover {
+    color: $color-orange;
   }
-  &_site-navigation__main {
-    padding-top: 166px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  &_site-navigation__title {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    color: $color-fon;
-    font-size: 72px;
-    line-height: 1.2;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 400;
-  }
-  &_site-navigation__item {
-    padding-top: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin: 0;
-    color: #ffffff;
-    font-size: 150px;
-    line-height: 0.9;
-    width: 830px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 122px;
-  }
-  &_site-navigation__but--transparent {
-    background-color: transparent;
-    border: #ffffff solid 3px;
-    height: 36px;
-    width: 160px;
-    margin: 0;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  }
-  &_site-navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-  }
-  &_site-navigation li {
-    margin-right: 50px;
-  }
-  &_site-navigation li:nth-last-child(1) {
-    margin-right: 0px;
-  }
-  &_site-navigation__button--hove:hover {
-    fill: #fce38a;
-    cursor: pointer;
-  }
-  &_site-navigation__button {
-    fill: rgb(255, 255, 255);
-  }
-  &_site-navigation__link {
-    position: relative;
-    padding-bottom: 12px;
-    transition: color 200ms ease-in;
-  }
-  &_site-navigation__link--after::after {
+  &::after {
     position: absolute;
     width: 50px;
     height: 3px;
@@ -107,10 +34,85 @@
     left: 50%;
     transform: translateX(-50%);
   }
-  &_site-navigation__link--hover:hover {
-    color: #fce38a;
+}
+
+.page-header_site-navigation__button {
+  fill: $color-main;
+
+  &:hover {
+    fill: $color-orange;
+    cursor: pointer;
   }
-  &_site-navigation__link--hover:hover::after {
-    background-color: #fce38a;
+}
+
+.page-header_site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+
+  & li {
+    margin-right: 50px;
   }
+  & li:nth-last-child(1) {
+    margin-right: 0px;
+  }
+  & a {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-font;
+    font-weight: 400;
+  }
+}
+.page-header_site-navigation__main {
+  padding-top: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page-header_site-navigation__title {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: $color-font;
+  font-size: $big-font-size;
+  line-height: 1.2;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+}
+.page-header_site-navigation__item {
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: $color-font;
+  font-size: 150px;
+  line-height: 0.9;
+  width: 830px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 122px;
+}
+.page-header_site-navigation__but--transparent {
+  background-color: transparent;
+  border: $color-font solid 3px;
+  height: 36px;
+  width: 160px;
+  margin: 0;
+  color: $color-font;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.page-header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 35px;
 }

@@ -7,13 +7,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: $main-font-stack;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
 
   color: #b3b3b3;
   font-size: 15px;
   line-height: 1.5;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
 }
