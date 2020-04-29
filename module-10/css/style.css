@@ -40,7 +40,7 @@ body {
     background-image: url("../img/Layer15@2x.png");
   }
 }
-.page-header__logo {
+.page-header__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,7 +49,7 @@ body {
   padding-top: 35px;
 }
 
-.page-header_site-navigation a {
+.page-header__site-navigation a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
   font-weight: 400;
 }
 
-.page-header_site-navigation__main {
+.page-header__main {
   padding-top: 166px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,7 +66,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.page-header_site-navigation__title {
+.page-header__title {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   color: #ffffff;
@@ -75,7 +75,7 @@ body {
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
 }
-.page-header_site-navigation__item {
+.page-header__item {
   padding-top: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -89,7 +89,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 122px;
 }
-.page-header_site-navigation__but--transparent {
+.page-header__but--transparent {
   background-color: transparent;
   border: #ffffff solid 3px;
   height: 36px;
@@ -100,7 +100,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-.page-header_site-navigation {
+.page-header__site-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,10 +109,10 @@ body {
   margin: 0px;
   list-style: none;
 }
-.page-header_site-navigation li {
+.page-header__site-navigation li {
   margin-right: 50px;
 }
-.page-header_site-navigation li:nth-last-child(1) {
+.page-header__site-navigation li:nth-last-child(1) {
   margin-right: 0px;
 }
 
@@ -121,11 +121,11 @@ body {
   border: 0;
 }
 
-.page-header_site-navigation__button--hove:hover {
+.page-header__site-navigation__button--hove:hover {
   fill: #fce38a;
   cursor: pointer;
 }
-.page-header_site-navigation__button {
+.page-header__site-navigation__button {
   fill: rgb(255, 255, 255);
 }
 
@@ -260,13 +260,13 @@ body {
   margin: 0 auto;
 }
 
-.page-header_site-navigation__link {
+.page-header__site-navigation__link {
   position: relative;
   padding-bottom: 12px;
   transition: color 200ms ease-in;
 }
 
-.page-header_site-navigation__link--after::after {
+.page-header__site-navigation__link--after::after {
   position: absolute;
   width: 50px;
   height: 3px;
@@ -279,10 +279,10 @@ body {
   transform: translateX(-50%);
 }
 
-.page-header_site-navigation__link--hover:hover {
+.page-header__site-navigation__link--hover:hover {
   color: #fce38a;
 }
-.page-header_site-navigation__link--hover:hover::after {
+.page-header__site-navigation__link--hover:hover::after {
   background-color: #fce38a;
 }
 
