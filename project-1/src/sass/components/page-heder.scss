@@ -1,7 +1,13 @@
 .page-heder {
-  .page-button {
-    background-color: transparent;
-    border: none;
-    padding: 0;
+  padding-top: 22px;
+  &__div {
+    @include space-between('all');
+    align-items: flex-start;
   }
+  &__button-two {
+    display: none;
+  }
+}
+.site-navigation {
+  display: none;
 }
