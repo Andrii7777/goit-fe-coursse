@@ -14,21 +14,21 @@
 
   <body>
     <header class="page-heder">
-      <nav class="page-nav container">
-        <div class="page-div">
-          <picture class="page-picture">
+      <nav class="page-heder__nav container">
+        <div class="page-heder__div">
+          <picture class="page-heder__picture">
             <source
               srcset="../build/images/logo_768-min.png"
               media="(min-width: 768px)"
             />
             <img
-              class="page-picture__logo"
+              class="page-heder__logo"
               src="../build/images/logo_320-min.png"
               alt="Лого"
             />
           </picture>
 
-          <button class="page-button">
+          <button class="page-heder__button">
             <img
               class="page-button__img"
               src="../build/images/burger.png"
@@ -36,22 +36,24 @@
             />
           </button>
 
-          <ul class="site-navigation">
+          <ul class="site-navigation list">
             <li class="site-navigation__item">
-              <a href="#">Программа обучения</a>
+              <a class="site-navigation__a link" href="#">Программа обучения</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">о нас</a>
+              <a class="site-navigation__a link" href="#">о нас</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">варианты обучения</a>
+              <a class="site-navigation__a link" href="#">варианты обучения</a>
             </li>
             <li class="site-navigation__item">
-              <a href="#">контакты</a>
+              <a class="site-navigation__a link" href="#">контакты</a>
             </li>
           </ul>
 
-          <button class="page-div__button">консультация по телефону</button>
+          <button class="page-heder__button-two">
+            консультация по телефону
+          </button>
         </div>
       </nav>
     </header>
@@ -88,8 +90,8 @@
               height="185px"
             />
           </picture>
-          <ul class="one-section__list">
-            <li class="one-section__item">
+          <ul class="one-section__list list">
+            <li class="one-section__item link">
               <div class="one-section__icon">
                 <svg class="one-section__svg" width="34px" height="38px">
                   <use
@@ -103,7 +105,7 @@
                 </div>
               </div>
             </li>
-            <li class="one-section__item">
+            <li class="one-section__item link">
               <div class="one-section__icon">
                 <svg class="one-section__svg" width="32px" height="36px">
                   <use
@@ -115,7 +117,7 @@
                 </div>
               </div>
             </li>
-            <li class="one-section__item">
+            <li class="one-section__item link">
               <div class="one-section__icon">
                 <svg class="one-section__svg" width="32px" height="36px">
                   <use
@@ -137,23 +139,27 @@
           Главные проблемы учеников на English ВНО, которые мы
           <span>помогаем</span>решить
         </h1>
-        <ul class="two-section__list">
-          <li class="two-section__item">Незнание грамматики</li>
-          <li class="two-section__item">
+        <ul class="two-section__list list">
+          <li class="two-section__item link">Незнание грамматики</li>
+          <li class="two-section__item link">
             Неумение воспринимать устную английскую речь
           </li>
-          <li class="two-section__item">
+          <li class="two-section__item link">
             Скупой словарный запас для написания сочинения
           </li>
-          <li class="two-section__item">Подготовка в одиночку</li>
-          <li class="two-section__item">Отсутствие единого ресурса знаний</li>
-          <li class="two-section__item">Недостаток самоорганизации и лень</li>
+          <li class="two-section__item link">Подготовка в одиночку</li>
+          <li class="two-section__item link">
+            Отсутствие единого ресурса знаний
+          </li>
+          <li class="two-section__item link">
+            Недостаток самоорганизации и лень
+          </li>
         </ul>
       </section>
       <section class="three-section container">
         <h1 class="three-section__title">Как мы это делаем</h1>
-        <ul class="three-section__list">
-          <li class="three-section__item">
+        <ul class="three-section__list list">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -171,7 +177,7 @@
               </p>
             </div>
           </li>
-          <li class="three-section__item">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -189,7 +195,7 @@
               </p>
             </div>
           </li>
-          <li class="three-section__item">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -207,7 +213,7 @@
               </p>
             </div>
           </li>
-          <li class="three-section__item">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -223,7 +229,7 @@
               </p>
             </div>
           </li>
-          <li class="three-section__item">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -241,7 +247,7 @@
               </p>
             </div>
           </li>
-          <li class="three-section__item">
+          <li class="three-section__item link">
             <div class="three-section__icon">
               <svg class="three-section__svg" width="44px" height="46px">
                 <use
@@ -264,8 +270,8 @@
       </section>
       <section class="four-section container">
         <h1 class="four-section__title">Наша программа</h1>
-        <ul class="four-section__list">
-          <li class="four-section__item">
+        <ul class="four-section__list list">
+          <li class="four-section__item link">
             <h2 class="four-section__heading">1 семестр</h2>
             <h3 class="four-section__title-h3">Grammar</h3>
             <p class="four-section__description">
@@ -278,7 +284,7 @@
               People & Society
             </p>
           </li>
-          <li class="four-section__item">
+          <li class="four-section__item link">
             <h2 class="four-section__heading">2 семестр</h2>
             <h3 class="four-section__title-h3">Grammar</h3>
             <p class="four-section__description">
@@ -292,7 +298,7 @@
               Work
             </p>
           </li>
-          <li class="four-section__item">
+          <li class="four-section__item link">
             <h2 class="four-section__heading">3 семестр</h2>
             <h3 class="four-section__title-h3">Grammar</h3>
             <p class="four-section__description">
@@ -310,7 +316,7 @@
             <h3 class="four-section__title-three">Writing</h3>
             <p class="four-section__description-three">Informal Letter</p>
           </li>
-          <li class="four-section__item">
+          <li class="four-section__item link">
             <h2 class="four-section__heading">4 семестр</h2>
             <h3 class="four-section__title-h3">Grammar</h3>
             <p class="four-section__description">
@@ -328,7 +334,7 @@
             <h3 class="four-section__title-three">Writing</h3>
             <p class="four-section__description-three">Formal Letter</p>
           </li>
-          <li class="four-section__item">
+          <li class="four-section__item link">
             <h2 class="four-section__heading">5 семестр</h2>
 
             <p class="four-section__revision">
@@ -359,29 +365,29 @@
       </section>
       <section class="five-section container">
         <h1 class="five-section__title">Почему нас выбирают</h1>
-        <ul class="five-section__list">
-          <li class="five-section__item">
+        <ul class="five-section__list list">
+          <li class="five-section__item link">
             <p class="five-section__description">Обучение в малых командах</p>
           </li>
-          <li class="five-section__item">
+          <li class="five-section__item link">
             <p class="five-section__description">Визуализированные конспекты</p>
           </li>
-          <li class="five-section__item">
+          <li class="five-section__item link">
             <p class="five-section__description">
               Каждое занятие имеет цель и конкретный результат
             </p>
           </li>
-          <li class="five-section__item">
+          <li class="five-section__item link">
             <p class="five-section__description">
               Реальные результаты преподавателя
             </p>
           </li>
-          <li class="five-section__item">
+          <li class="five-section__item link">
             <p class="five-section__description">
               Программа курса соответствует требованиям МОН Украины
             </p>
           </li>
-          <li class="five-section__item">
+          <li class="five-section__item link">
             <p class="five-section__description">
               Набор команд по уровням знаний
             </p>
@@ -410,20 +416,20 @@
           />
         </picture>
         <p>Елена Морева</p>
-        <ul class="six-section__list">
-          <li class="six-section__item">
+        <ul class="six-section__list list">
+          <li class="six-section__item link">
             <p class="six-section__description">
               Опыт подготовки учеников <br />
               к ВНО - 6
             </p>
           </li>
-          <li class="six-section__item">
+          <li class="six-section__item link">
             <p class="six-section__description">
               Собственный результат сдачи<br />
               ВНО - 197 баллов 2 года подряд
             </p>
           </li>
-          <li class="six-section__item">
+          <li class="six-section__item link">
             <p class="six-section__description">
               Сдала на отлично <br />международный аналог ВНО-<br />Кембриджский
               РЕТ (Preliminary English Test)
@@ -449,20 +455,20 @@
       </section>
       <section class="seven-section container">
         <h1 class="seven-section__title">Мы гарантируем</h1>
-        <ul class="seven-section__list">
-          <li class="seven-section__item">
+        <ul class="seven-section__list list">
+          <li class="seven-section__item link">
             Ты сдашь ВНО минимум на 25 баллов лучше, чем на первом пробном
             тестировании. Иначе мы вернем деньги. <span>*</span>
           </li>
-          <li class="seven-section__item">
+          <li class="seven-section__item link">
             Ты научишься писать сочинения минимум на 10 баллов из 14.
             <span>В то время как 20% учеников получили за сочинение 0.</span>
           </li>
-          <li class="seven-section__item">
+          <li class="seven-section__item link">
             Ты будешь заниматься в своем районе. Мы выберем место проведения
             занятий после формирования команд.
           </li>
-          <li class="seven-section__item">
+          <li class="seven-section__item link">
             Команды будут сформированы, исходя из начального уровня учеников. Мы
             учитываем особенности каждого ученика.
           </li>
@@ -492,27 +498,29 @@
         </p>
 
         <button class="eight-section__control-prev"></button>
-        <li>
-          <img
-            class="eight-section__imeges"
-            src="../build/images/Слой 44.png"
-            alt="дівчата"
-          />
-        </li>
-        <li>
-          <img
-            class="eight-section__imeges"
-            src="../build/images/Слой 55.png"
-            alt="дівчата"
-          />
-        </li>
-        <li>
-          <img
-            class="eight-section__imeges"
-            src="../build/images/Слой 66.png"
-            alt="дівчата"
-          />
-        </li>
+        <ul class="eight-section__title">
+          <li class="eight-section__list link">
+            <img
+              class="eight-section__imeges"
+              src="../build/images/Слой 44.png"
+              alt="дівчата"
+            />
+          </li>
+          <li class="eight-section__list link">
+            <img
+              class="eight-section__imeges"
+              src="../build/images/Слой 55.png"
+              alt="дівчата"
+            />
+          </li>
+          <li class="eight-section__list link">
+            <img
+              class="eight-section__imeges"
+              src="../build/images/Слой 66.png"
+              alt="дівчата"
+            />
+          </li>
+        </ul>
         <button class="eight-section__control-next"></button>
       </section>
       <section class="nine-section container">
