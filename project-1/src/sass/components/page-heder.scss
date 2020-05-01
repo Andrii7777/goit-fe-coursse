@@ -1,5 +1,5 @@
 .page-heder {
-  margin-top: 22px;
+  padding-top: 22px;
   &__div {
     @include space-between('all');
     align-items: flex-start;
