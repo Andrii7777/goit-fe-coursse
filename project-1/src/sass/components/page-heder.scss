@@ -1,11 +1,19 @@
 .page-heder {
-  padding-top: 22px;
+  margin-top: 22px;
   &__div {
     @include space-between('all');
     align-items: flex-start;
   }
   &__button-two {
     display: none;
+  }
+  &__a {
+    padding: 0;
+    margin-top: 12px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    list-style: none;
   }
 }
 .site-navigation {

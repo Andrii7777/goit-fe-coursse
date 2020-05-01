@@ -1,0 +1,42 @@
+.one-section {
+  &__title {
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    @extend %reset;
+    margin-top: 58px;
+    margin-bottom: 38px;
+    font-size: $title-text-size;
+    line-height: $line-height-title;
+  }
+  &__description {
+    @extend %reset;
+    margin-bottom: 38px;
+  }
+  &__button {
+    font-family: $font-Montserrat-bold;
+    font-weight: bold;
+    @include center-flex($type: 'all');
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    @extend %button;
+    margin-bottom: 38px;
+    color: $primary-white-color;
+    background-color: $primary-orange-color;
+    text-transform: uppercase;
+    font-size: $first-title-text-size;
+    line-height: $line-height-standart;
+  }
+  &__description {
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    font-size: $secondary-title-text-size;
+    line-height: $line-height-standart;
+  }
+  &__description--gray {
+    color: $first-gray-color;
+  }
+  &__description--orange {
+    color: $primary-orange-color;
+  }
+}
