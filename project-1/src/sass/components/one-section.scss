@@ -47,11 +47,51 @@
   &__picture {
     @include center-flex($type: 'all');
     margin: 0 auto;
-    margin-bottom: 86px;
+    margin-bottom: 90px;
   }
+  &__list {
+    margin-bottom: 50px;
+  }
+  &__icon {
+    @include center-flex($type: 'all');
+  }
+  &__imeges {
+    position: relative;
+  }
+
   &__svg {
     fill: $primary-orange-color;
-
+    margin-left: 50px;
     border: $primary-orange-color solid 2px;
+  }
+  &__imge {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+  }
+  &__name {
+    font-family: $font-Montserrat-bold;
+    font-weight: bold;
+    font-size: $first-text-size;
+    line-height: $line-height-title;
+    @extend %reset;
+    width: 130px;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  &__item {
+    margin-bottom: 24px;
+  }
+  &__item:last-child {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    width: 688px;
+    padding: 0 40px;
+  }
+  .one-section {
+    background-image: url(/build/images/Sha_768-min.png);
   }
 }
