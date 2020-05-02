@@ -1,21 +1,114 @@
 .page-heder {
   padding-top: 22px;
+
   &__div {
-    @include space-between('all');
-    align-items: flex-start;
-  }
-  &__button-two {
-    display: none;
+    @include center-flex('all');
   }
   &__a {
-    padding: 0;
-    margin-top: 12px;
+    @extend %reset;
     background-color: transparent;
-    border: 0;
     cursor: pointer;
     list-style: none;
   }
+  &__picture {
+    margin-right: 173px;
+  }
+  &__button-two {
+    font-family: 'Montserrat 700';
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    border: $primary-orange-color solid 2px;
+    color: $primary-orange-color;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.2;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 767px) {
+    &__button-two {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1279px) {
+    &__a {
+      display: none;
+    }
+  }
 }
-.site-navigation {
-  display: none;
+@media screen and (max-width: 1279px) {
+  .site-navigation {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page-heder {
+    padding-top: 34px;
+
+    &__picture {
+      margin-right: 248px;
+    }
+    &__a {
+      margin: 0;
+    }
+    &__button-two {
+      margin-right: 46px;
+    }
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .page-heder {
+    padding-top: 45px;
+
+    &__button-two {
+      width: 300px;
+      height: 65px;
+    }
+  }
+  .site-navigation {
+    @include center-flex('all');
+
+    &__item {
+      margin-right: 27px;
+    }
+    &__a {
+      font-family: $font-Montserrat-bold;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__a:hover {
+      color: $primary-orange-color;
+    }
+  }
+}
+@media screen and (min-width: 1680px) {
+  .page-heder {
+    padding-top: 34px;
+
+    &__button-two {
+      width: 300px;
+      height: 65px;
+    }
+    &__picture {
+      margin-right: 145px;
+    }
+  }
+  .site-navigation {
+    @include center-flex('all');
+
+    &__item {
+      margin-right: 59px;
+    }
+    &__a {
+      font-family: $font-Montserrat-bold;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__a:hover {
+      color: $primary-orange-color;
+    }
+  }
 }

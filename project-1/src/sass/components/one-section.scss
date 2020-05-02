@@ -87,11 +87,17 @@
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .container {
-    width: 688px;
-    padding: 0 40px;
-  }
   .one-section {
     background-image: url(/build/images/Sha_768-min.png);
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .one-section {
+    background-image: url(/build/images/Sha_1280-min.png);
+  }
+}
+@media screen and (min-width: 1680px) {
+  .one-section {
+    background-image: url(/build/images/Sha_1680-min.png);
   }
 }
