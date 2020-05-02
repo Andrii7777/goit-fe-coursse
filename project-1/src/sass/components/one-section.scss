@@ -89,6 +89,21 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .one-section {
     background-image: url(/build/images/Sha_768-min.png);
+
+    &__wrapper {
+      @include center-flex('all');
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      margin: 0;
+    }
+    &__title {
+      padding: 0;
+    }
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
