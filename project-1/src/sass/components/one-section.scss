@@ -61,7 +61,6 @@
 
   &__svg {
     fill: $primary-orange-color;
-    margin-left: 50px;
     border: $primary-orange-color solid 2px;
   }
   &__imge {
@@ -75,7 +74,7 @@
     font-size: $first-text-size;
     line-height: $line-height-title;
     @extend %reset;
-    width: 130px;
+    width: 123px;
     margin: 0 auto;
     margin-left: 10px;
   }
@@ -83,7 +82,7 @@
     margin-bottom: 24px;
   }
   &__item:last-child {
-    margin: 0;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -92,6 +91,9 @@
 
     &__wrapper {
       @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 60px;
+      margin-bottom: 114px;
     }
     &__tecst {
       display: flex;
@@ -102,17 +104,183 @@
       margin: 0;
     }
     &__title {
+      width: 250px;
       padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+    &__item {
+      margin: 0;
     }
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .page-heder__button-two {
+    letter-spacing: 1px;
+    font-size: $first-text-size;
+  }
+
+  .site-navigation__a {
+    color: $first-gray-color;
+  }
+
   .one-section {
     background-image: url(/build/images/Sha_1280-min.png);
+
+    &__wrapper {
+      @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 46px;
+      margin-bottom: 132px;
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      letter-spacing: 2px;
+      font-size: $two-title-text-size;
+      width: 300px;
+      height: 65px;
+      margin: 0;
+    }
+
+    &__title {
+      font-size: $subtitle-text-size;
+      width: 500px;
+      padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      align-items: flex-start;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+    &__item {
+      position: relative;
+      margin: 0;
+      margin-right: 352px;
+    }
+    &__item:last-child {
+      margin-right: 204px;
+    }
+    &__description-br {
+      display: none;
+    }
+    &__description {
+      font-size: $average-text-size;
+    }
+    &__svg {
+      width: 100px;
+      height: 100px;
+    }
+    &__name {
+      margin-left: 0;
+      width: 272px;
+      font-size: $average-text-size;
+    }
+    &__name-div {
+      position: absolute;
+      left: 86px;
+    }
+
+    &__imge {
+      height: 68px;
+      top: 14%;
+      left: 80%;
+    }
   }
 }
 @media screen and (min-width: 1680px) {
+  .site-navigation__a {
+    color: $first-gray-color;
+  }
+  .site-navigation__item {
+    margin-right: 45px;
+  }
   .one-section {
     background-image: url(/build/images/Sha_1680-min.png);
+    &__wrapper {
+      @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 54px;
+      margin-bottom: 110px;
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      letter-spacing: 2px;
+      font-size: $first-text-size;
+      width: 354px;
+      height: 70px;
+      margin: 0;
+    }
+
+    &__title {
+      font-size: $subtitle-text-size;
+      width: 500px;
+      padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      align-items: flex-start;
+      margin-bottom: 130px;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+    &__item {
+      position: relative;
+      margin: 0;
+      margin-right: 388px;
+    }
+    &__item:last-child {
+      margin-right: 225px;
+    }
+    &__description-br {
+      display: none;
+    }
+    &__description {
+      font-size: $title-text-size;
+    }
+    &__svg {
+      width: 100px;
+      height: 100px;
+    }
+    &__name {
+      margin-left: 0;
+      width: 302px;
+      font-size: $title-text-size;
+    }
+    &__name-div {
+      position: absolute;
+      left: 86px;
+    }
+
+    &__imge {
+      height: 68px;
+      top: 14%;
+      left: 80%;
+    }
   }
 }
