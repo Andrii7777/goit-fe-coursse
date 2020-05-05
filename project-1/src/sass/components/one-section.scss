@@ -50,7 +50,7 @@
     margin-bottom: 90px;
   }
   &__list {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   &__icon {
     @include center-flex($type: 'all');
@@ -244,7 +244,7 @@
     &__list {
       @include center-flex('all');
       align-items: flex-start;
-      margin-bottom: 130px;
+      padding-bottom: 130px;
     }
     &__svg {
       margin: 0 auto;
@@ -252,7 +252,7 @@
     &__item {
       position: relative;
       margin: 0;
-      margin-right: 388px;
+      margin-right: 406px;
     }
     &__item:last-child {
       margin-right: 225px;
