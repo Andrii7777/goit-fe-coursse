@@ -1,3 +1,80 @@
+.three-section {
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    font-size: $title-text-size;
+    line-height: $line-height-title;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 50px;
+  }
+  &__item {
+    width: 290px;
+    height: 270px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    min-height: 260px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+    transition: all 0.2s linear;
+
+    &:hover {
+      background-color: $primary-orange-color;
+    }
+  }
+  &__heading {
+    font-family: Mon-700;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: $primary-white-color;
+    }
+  }
+  &__description {
+    color: #858585;
+    font-family: Mon-400;
+    font-size: 11px;
+    line-height: 2;
+
+    &:hover {
+      color: $primary-white-color;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: #ff6b08;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+
+      &:hover {
+        color: $primary-white-color;
+      }
+    }
+  }
+  &__svg {
+    fill: #ff6b08;
+    margin-bottom: 15px;
+
+    &:hover {
+      fill: $primary-white-color;
+    }
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
