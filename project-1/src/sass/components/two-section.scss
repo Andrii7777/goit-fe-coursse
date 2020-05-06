@@ -39,17 +39,17 @@
     font-weight: bold;
     color: $secondory-dark-color;
     width: 192px;
-    // counter-increment: var;
+    counter-increment: var;
     position: relative;
     counter-increment: number;
 
     &::before {
-      display: inline-block;
+      position: relative;
       content: '';
       top: 75px;
       bottom: 0px;
-      top: 50%;
-      left: 50%;
+      top: 0px;
+      left: 34px;
       margin-bottom: 5px;
       transform: translateX(262%);
       color: $primary-orange-color;
@@ -129,6 +129,11 @@
       background-position: right bottom;
       background-repeat: no-repeat;
     }
+    &__list li {
+      &::before {
+        top: -3px;
+      }
+    }
     &__title {
       padding-top: 80px;
       margin-bottom: 52px;
@@ -167,6 +172,11 @@
       background-size: 392px 584px;
       background-position: right bottom;
       background-repeat: no-repeat;
+    }
+    &__list li {
+      &::before {
+        top: -4px;
+      }
     }
 
     &__title {
