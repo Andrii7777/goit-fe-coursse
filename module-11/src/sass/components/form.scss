@@ -3,26 +3,27 @@
   display: -ms-flexbox;
   display: flex;
   justify-content: flex-end;
-}
-.form__but {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  width: 150px;
-  line-height: 1.2;
-  height: 40px;
-  margin: 0px;
-  padding: 0px;
-  background-color: $color-images;
-  color: $color-font;
-  border: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-.form__input {
-  padding-left: 12px;
-  color: $color-input;
-  width: 230px;
-  height: 40px;
-  border: 1px solid;
-  outline: 0px solid $color-red;
+
+  &__but {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 150px;
+    line-height: 1.2;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: $color-images;
+    color: $color-font;
+    border: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__input {
+    padding-left: 12px;
+    color: $color-input;
+    width: 230px;
+    height: 40px;
+    border: 1px solid;
+    outline: 0px solid $color-red;
+  }
 }
