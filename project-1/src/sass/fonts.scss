@@ -12,6 +12,16 @@
 
 @font-face {
   font-family: 'Montserrat 400';
+  src: url('../fonts/Montserrat Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family: 'Montserrat 400  italic';
   src: url('../fonts/Montserrat Italic.woff2') format('woff2'),
     url('../fonts/Montserrat Italic.woff') format('woff');
   font-weight: 400;
