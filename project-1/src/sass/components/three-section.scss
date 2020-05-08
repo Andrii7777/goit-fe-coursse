@@ -42,6 +42,10 @@
     margin: auto;
     margin-bottom: 20px;
   }
+
+  &__list {
+    padding-bottom: 52px;
+  }
   &__description {
     margin: 0 auto;
     font-weight: 400;
@@ -92,7 +96,7 @@
     &__list {
       @include space-between($type: 'all');
       @include flex-wrap($type: 'all');
-      padding: 0px 42px;
+      padding: 0px 42px 52px 42px;
     }
     &__item {
       width: 290px;
@@ -124,7 +128,7 @@
     &__list {
       @include space-between($type: 'all');
       @include flex-wrap($type: 'all');
-      padding: 0px;
+      padding-bottom: 100px;
     }
     &__item {
       min-height: 340px;
@@ -159,7 +163,7 @@
     &__list {
       @include space-between($type: 'all');
       @include flex-wrap($type: 'all');
-      padding: 0px;
+      padding-bottom: 130px;
     }
     &__item {
       min-height: 400px;
