@@ -1,3 +1,54 @@
+.seven-section {
+  &__wrapper {
+    background-color: $background-two-color;
+    padding: 25px 0px;
+  }
+  &__title {
+    text-align: center;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $title-text-size;
+    line-height: $line-height-two;
+    padding-top: 54px;
+    margin-bottom: 26px;
+  }
+
+  &__text {
+    @extend %zero;
+    line-height: $line-height-title-big;
+    font-size: $first-title-text-size;
+    color: $secondory-dark-color;
+  }
+  &__item {
+    padding-left: 37px;
+    position: relative;
+
+    &:not(:last-child):before {
+      display: inline-block;
+      content: '';
+      position: absolute;
+      border-left: 2px dashed #858585;
+      height: 150%;
+      top: 6px;
+      left: 4px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+  }
+  &__svg {
+    width: 18px;
+    height: 26px;
+    position: absolute;
+    fill: $primary-orange-color;
+    top: 0px;
+    left: -4px;
+  }
+
+  &__span {
+    color: $primary-orange-color;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
