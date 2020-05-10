@@ -712,7 +712,7 @@
         <button class="nine-section__button">хочу на бесплатное занятие</button>
       </section>
     </main>
-    <footer class="foooter container">
+    <footer class="footer container">
       <div class="footer__list">
         <a class="footer__tel" href="tel.. "
           ><span>
@@ -730,18 +730,24 @@
       </div>
       <div class="footer__list-Three">
         <a class="footer__logo" href="">
-          <img
-            src="../build/images/logo 2 3 4-min.png"
-            alt=""
-            width="79px"
-            height="31px"
-          />
+          <picture class="page-heder__picture">
+            <source
+              srcset="../build/images/logo_768-min.png"
+              media="(min-width: 768px)"
+            />
+            <img
+              class="page-heder__logo"
+              src="../build/images/logo_320-min.png"
+              alt="Лого"
+            />
+          </picture>
         </a>
       </div>
-
-      <p class="footer__description">
-        <span>&copy;</span> Все права защищены, 2019
-      </p>
+      <div class="footer__wrapper">
+        <p class="footer__description">
+          <span>&copy;</span> Все права защищены, 2019
+        </p>
+      </div>
     </footer>
   </body>
 </html>

@@ -182,6 +182,7 @@
     &__tekst {
       font-size: $average-text-size;
       padding: 0px;
+      margin-bottom: 16px;
     }
     &__svg {
       width: 32px;
@@ -193,6 +194,11 @@
     }
     &__icon {
       margin: 0px;
+    }
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 18px;
+      }
     }
     &__a {
       font-family: $font-Montserrat-normal;
