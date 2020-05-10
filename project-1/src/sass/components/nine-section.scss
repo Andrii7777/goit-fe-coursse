@@ -1,5 +1,104 @@
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+.nine-section {
+  background-image: url(/build/images/s_320-min.png);
+  @extend %background-standart;
+  padding: 60px 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  &__description {
+    font-family: $fon-Montserrat-SemiBold;
+    color: $primary-white-color;
+    text-align: center;
+    font-size: $first-title-text-size;
+    height: auto;
+    margin: 0 0 25px;
+  }
+  &__input {
+    background-color: transparent;
+    width: 280px;
+    height: 50px;
+    color: $primary-white-color;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid $primary-white-color;
+    padding-left: 20px;
+  }
+  &__input-two {
+    background-color: transparent;
+    width: 280px;
+    height: 50px;
+    color: $primary-white-color;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid $primary-white-color;
+    padding-left: 20px;
+  }
+  &__div-two {
+    margin-bottom: 55px;
+  }
+  &__div {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    text-align: center;
+
+    height: auto;
+    margin: 0 0 20px;
+
+    color: $primary-white-color;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $first-text-size;
+    line-height: $line-height-title-big;
+  }
+  &__button {
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    font-size: $first-title-text-size;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: $primary-orange-color;
+    color: $primary-white-color;
+  }
+  span {
+    color: $primary-orange-color;
+  }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .nine-section {
+    background-image: url(/build/images/s_768-min.png);
+
+    &__title {
+      width: 550px;
+      margin: auto;
+      align-items: center;
+      font-size: $title-text-two;
+      margin-bottom: 40px;
+    }
+    &__description {
+      width: 460px;
+      margin: auto;
+      font-size: $secondary-title-text-size;
+      margin-bottom: 42px;
+    }
+    &__input-two {
+      width: 400px;
+    }
+    &__input {
+      width: 400px;
+    }
+    &__div-two {
+      margin-bottom: 32px;
+    }
+  }
+}
+
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
 }
 @media screen and (min-width: 1680px) {
