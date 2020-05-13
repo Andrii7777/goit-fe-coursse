@@ -100,6 +100,99 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .nine-section {
+    background-image: url(/build/images/s_1280-min.png);
+
+    padding: 68px 0px;
+
+    &__title {
+      width: 940px;
+      margin: auto;
+      align-items: center;
+      font-size: $title-text-two;
+      margin-bottom: 56px;
+      font-size: $title-text-four;
+      line-height: $line-height-title;
+    }
+    &__description {
+      width: 542px;
+      margin: auto;
+      font-size: $average-text-size;
+      margin-bottom: 54px;
+    }
+    &__input-two {
+      width: 620px;
+      height: 72px;
+      padding-left: 30px;
+      font-size: $title-text-three;
+      font-family: $fon-Montserrat-SemiBold;
+    }
+    &__input {
+      width: 620px;
+      height: 72px;
+      padding-left: 30px;
+      font-size: $title-text-three;
+      font-family: $fon-Montserrat-SemiBold;
+    }
+
+    &__div-two {
+      margin-bottom: 56px;
+    }
+    &__div {
+      margin-bottom: 30px;
+    }
+    &__button {
+      font-size: $first-text-size;
+      width: 352px;
+      height: 70px;
+    }
+  }
 }
 @media screen and (min-width: 1680px) {
+  .nine-section {
+    background-image: url(/build/images/s_1280-min.png);
+    padding: 124px 0px 104px 0px;
+
+    &__title {
+      width: 940px;
+      margin: auto;
+      align-items: center;
+      font-size: $title-text-two;
+      margin-bottom: 56px;
+      font-size: $title-text-four;
+      line-height: $line-height-title;
+    }
+    &__description {
+      width: 740px;
+      margin: auto;
+      font-size: $title-text-tive;
+      margin-bottom: 54px;
+    }
+    &__input-two {
+      width: 620px;
+      height: 72px;
+      padding-left: 30px;
+      font-size: $title-text-three;
+      font-family: $fon-Montserrat-SemiBold;
+    }
+    &__input {
+      width: 620px;
+      height: 72px;
+      padding-left: 30px;
+      font-size: $title-text-three;
+      font-family: $fon-Montserrat-SemiBold;
+    }
+
+    &__div-two {
+      margin-bottom: 56px;
+    }
+    &__div {
+      margin-bottom: 30px;
+    }
+    &__button {
+      font-size: $first-text-size;
+      width: 352px;
+      height: 70px;
+    }
+  }
 }
