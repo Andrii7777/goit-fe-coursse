@@ -8,6 +8,7 @@
     font-size: $first-title-text-size;
     font-family: $fon-Montserrat-Medium;
     color: $text-color;
+    margin: 0px;
   }
   &__instagram {
     margin: 0px;
@@ -45,9 +46,35 @@
   .footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 40px 0px;
 
     &__description {
       display: inline-block;
+    }
+    &__list-two {
+      order: 2;
+      padding: 0px;
+      margin: 0px;
+      // margin-right: 60px;
+    }
+    &__list {
+      order: 1;
+      padding: 0px;
+      margin: 0px;
+      margin-right: 60px;
+    }
+    &__tel {
+      font-family: $fon-Montserrat-SemiBold;
+      font-size: $title-text-size;
+    }
+    &__svg {
+      top: 3px;
+    }
+    &__list-Three {
+      padding-top: 0px;
+      margin-right: 114px;
+      margin-bottom: 0px;
     }
   }
 }
