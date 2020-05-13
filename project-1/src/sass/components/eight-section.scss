@@ -1,4 +1,157 @@
+.eight-section {
+  &__title {
+    margin: 0 auto;
+
+    align-items: center;
+    text-align: center;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $title-text-size;
+    line-height: $line-height-title;
+    padding-top: 48px;
+    margin-bottom: 22px;
+  }
+
+  &__div-img {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-top: 22px;
+  }
+  &__icon {
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  &__heading {
+    @extend %reset;
+    text-align: center;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $firset-text-size;
+    line-height: $line-height-title;
+    color: $primary-orange-color;
+  }
+  &__div-heading {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  &__text {
+    font-family: $fon-Montserrat-Medium;
+    font-size: $first-title-text-size;
+    line-height: $line-height-title-big;
+    margin: 0 auto;
+    text-align: center;
+    color: $secondory-accent-color;
+    margin-bottom: 16px;
+    width: 226px;
+  }
+  &__text-two {
+    width: 224px;
+    font-family: $fon-Montserrat-Medium;
+    font-size: $first-title-text-size;
+    line-height: $line-height-title-big;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  &__a {
+    color: $primary-orange-color;
+  }
+  &__item {
+    position: relative;
+    @include center-flex($type: 'all');
+    padding-bottom: 55px;
+    padding-top: 17px;
+  }
+  &__list:not(:nth-last-child(-n + 1)) {
+    margin-right: 10px;
+  }
+  &__vrapper {
+    margin: 0 auto;
+    width: 280px;
+    height: auto;
+    box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+  }
+  &__items {
+    @include center-flex($type: 'all');
+    margin: 0px;
+    padding: 0px;
+  }
+  &__control {
+    width: 28px;
+    height: 15px;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: none;
+  }
+  &__list:hover {
+    width: 58px;
+    height: 58px;
+    border: solid $primary-orange-color 2px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  &__control--next {
+    position: absolute;
+    right: 0px;
+    background-image: url(/build/images/prav_short.png);
+  }
+  &__control--prev {
+    position: absolute;
+    background-image: url(/build/images/levs_hort.png);
+    left: 0px;
+  }
+  @media screen and (max-width: 767px) {
+    &__list--none {
+      display: none;
+    }
+    &__span {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    &__spane {
+      display: none;
+    }
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .eight-section {
+    &__list:not(:nth-last-child(-n + 1)) {
+      margin-right: 20px;
+    }
+    &__title {
+      padding-top: 70px;
+      margin-bottom: 38px;
+      font-size: $three-title-text-size;
+    }
+    &__vrapper {
+      width: 688px;
+    }
+    &__item {
+      padding-top: 34px;
+      padding-bottom: 76px;
+    }
+    &__vrapper {
+      @include center-flex($type: 'all');
+    }
+    &__text-two {
+      width: 470px;
+
+      text-align: start;
+    }
+    &__text {
+      width: 470px;
+
+      text-align: start;
+    }
+    &__div-heading {
+      text-align: start;
+    }
+  }
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
 }
