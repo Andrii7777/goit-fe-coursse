@@ -84,7 +84,7 @@
   .two-section {
     &::before {
       height: 333px;
-      background-image: url(/build/images/fire.png);
+      background-image: url(../images/fire.png);
       background-size: 210px 297px;
       background-position: right bottom;
       background-repeat: no-repeat;
@@ -120,7 +120,7 @@
   .two-section {
     &::before {
       height: 525px;
-      background-image: url(/build/images/fire-1280.png);
+      background-image: url(../images/fire-1280.png);
       background-size: 356px 534px;
       background-position: right bottom;
       background-repeat: no-repeat;
@@ -162,7 +162,7 @@
   .two-section {
     &::before {
       height: 560px;
-      background-image: url(/build/images/fire-1680.png);
+      background-image: url(../images/fire-1680.png);
       background-size: 392px 584px;
       background-position: right bottom;
       background-repeat: no-repeat;
