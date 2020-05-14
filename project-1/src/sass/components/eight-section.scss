@@ -124,36 +124,129 @@
       margin-right: 20px;
     }
     &__title {
-      padding-top: 70px;
-      margin-bottom: 38px;
+      padding-top: 65px;
+      margin-bottom: 42px;
       font-size: $three-title-text-size;
     }
     &__vrapper {
       width: 688px;
     }
     &__item {
-      padding-top: 34px;
+      padding-top: 24px;
       padding-bottom: 76px;
     }
     &__vrapper {
+      width: 688px;
       @include center-flex($type: 'all');
     }
     &__text-two {
       width: 470px;
+      padding-bottom: 50px;
 
       text-align: start;
     }
     &__text {
+      font-size: $two-title-text-size;
       width: 470px;
+      margin-bottom: 24px;
 
       text-align: start;
     }
     &__div-heading {
       text-align: start;
     }
+    &__heading {
+      padding-top: 43px;
+      margin-bottom: 24px;
+      font-size: $average-text-size;
+    }
+    &__div-heading {
+      margin: 0px;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__div-img {
+      padding: 0px;
+    }
+    &__vrapper-two {
+      margin-right: 46px;
+    }
+
+    &__control--prev {
+      top: -160px;
+      left: -18px;
+    }
+    &__control--next {
+      top: -160px;
+      right: -18px;
+    }
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .eight-section {
+    &__list:not(:nth-last-child(-n + 1)) {
+      margin-right: 38px;
+    }
+    &__title {
+      padding-top: 90px;
+      margin-bottom: 46px;
+      font-size: $two-title-text;
+    }
+
+    &__item {
+      padding-top: 36px;
+      padding-bottom: 100px;
+    }
+    &__vrapper {
+      width: 1064px;
+      @include center-flex($type: 'all');
+    }
+    &__text-two {
+      width: 716px;
+      padding-bottom: 48px;
+      font-size: $second-title-text-two;
+
+      text-align: start;
+    }
+    &__text {
+      font-size: $firset-text-size;
+      width: 450px;
+      margin-bottom: 28px;
+      margin-left: 0px;
+
+      text-align: start;
+    }
+    &__div-heading {
+      text-align: start;
+    }
+    &__heading {
+      padding-top: 46px;
+      margin-bottom: 22px;
+      font-size: $title-text-tive;
+    }
+    &__div-heading {
+      margin: 0px;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__div-img {
+      padding: 0px;
+    }
+    &__vrapper-two {
+      margin-right: 46px;
+    }
+
+    &__control--prev {
+      top: -160px;
+      left: 5px;
+    }
+    &__control--next {
+      top: -160px;
+      right: 5px;
+    }
+  }
 }
 @media screen and (min-width: 1680px) {
 }
