@@ -1,5 +1,5 @@
 .nine-section {
-  background-image: url('/build/images/s_320-min.png');
+  background-image: url(/build/images/s_320-min.png);
   @extend %background-standart;
   padding: 60px 0;
   text-align: center;
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .nine-section {
-    background-image: url('/build/images/s_768-min.png');
+    background-image: url(/build/images/s_768-min.png);
 
     &__title {
       width: 550px;
@@ -101,7 +101,7 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
   .nine-section {
-    background-image: url('/build/images/s_1280-min.png');
+    background-image: url(/build/images/s_1280-min.png);
     padding: 68px 0px;
 
     &__title {
@@ -149,7 +149,7 @@
 }
 @media screen and (min-width: 1680px) {
   .nine-section {
-    background-image: url('/build/images/s_1280-min.png');
+    background-image: url(/build/images/s_1280-min.png);
     padding: 124px 0px 104px 0px;
 
     &__title {
