@@ -96,11 +96,11 @@
   &__control--next {
     position: absolute;
     right: 0px;
-    background-image: url(/build/images/prav_short.png);
+    background-image: url(../images/prav_short.png);
   }
   &__control--prev {
     position: absolute;
-    background-image: url(/build/images/levs_hort.png);
+    background-image: url(../images/levs_hort.png);
     left: 0px;
   }
   @media screen and (max-width: 767px) {
