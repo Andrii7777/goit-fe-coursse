@@ -1,4 +1,4 @@
-.nine-section {
+.ninee-section {
   background-image: url(/build/images/Form_bg-320.png);
   @extend %background-standart;
   padding: 60px 0;
@@ -71,7 +71,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .nine-section {
+  .ninee-section {
     background-image: url(/src/images/Form_bg-768.png);
 
     &__title {
@@ -100,7 +100,7 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
-  .nine-section {
+  .ninee-section {
     background-image: url(/src/images/Form_bg-1280.png);
 
     padding: 68px 0px;
@@ -149,7 +149,7 @@
   }
 }
 @media screen and (min-width: 1680px) {
-  .nine-section {
+  .ninee-section {
     background-image: url(/src/images/Form_bg-1680.png);
     padding: 124px 0px 104px 0px;
 
