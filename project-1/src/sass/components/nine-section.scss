@@ -101,7 +101,7 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
   .nine-section {
-    background-image: url(../../images/s_1280-min.png);
+    background-image: url(../../../build/images/s_1280-min.png);
 
     padding: 68px 0px;
 
@@ -150,7 +150,7 @@
 }
 @media screen and (min-width: 1680px) {
   .nine-section {
-    background-image: url(../../images/s_1280-min.png);
+    background-image: url(../../../build/images/s_1280-min.png);
     padding: 124px 0px 104px 0px;
 
     &__title {
@@ -162,6 +162,7 @@
       font-size: $title-text-four;
       line-height: $line-height-title;
     }
+
     &__description {
       width: 740px;
       margin: auto;
