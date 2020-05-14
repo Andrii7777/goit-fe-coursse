@@ -1,14 +1,11 @@
 .nine-section {
-  background-image: url(/build/images/Form_bg-320.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 64px 0px;
+  background-image: url(/build/images/s_320-min.png);
+  @extend %background-standart;
+  padding: 60px 0;
   text-align: center;
-
-  // width: 100%;
-  // height: auto;
-  // margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 
   &__description {
     font-family: $fon-Montserrat-SemiBold;
@@ -74,8 +71,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .ninee-section {
-    background-image: url(/src/images/Form_bg-768.png);
+  .nine-section {
+    background-image: url(/build/images/s_768-min.png);
 
     &__title {
       width: 550px;
@@ -103,8 +100,8 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1679px) {
-  .ninee-section {
-    background-image: url(/src/images/Form_bg-1280.png);
+  .nine-section {
+    background-image: url(/build/images/s_1280-min.png);
 
     padding: 68px 0px;
 
@@ -152,8 +149,8 @@
   }
 }
 @media screen and (min-width: 1680px) {
-  .ninee-section {
-    background-image: url(/src/images/Form_bg-1680.png);
+  .nine-section {
+    background-image: url(/build/images/s_1280-min.png);
     padding: 124px 0px 104px 0px;
 
     &__title {
