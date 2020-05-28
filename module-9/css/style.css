@@ -14,9 +14,18 @@ html {
   background-size: cover;
   background-position: center;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 140px;
 }
 .nawe {
   padding-top: 1px;
+}
+.archive {
+  padding-top: 66px;
+  padding-bottom: 45px;
+}
+.cards {
+  height: 261px;
 }
 
 .button {
@@ -74,7 +83,7 @@ html {
 }
 .button-div {
   margin: 0 auto;
-  padding-bottom: 45px;
+  
 }
 
 .search {
@@ -91,7 +100,6 @@ html {
   padding-left: 22px;
   padding-right: 21px;
   margin: 0 auto;
-  margin-bottom: 140px;
   transition: border-radius 300ms linear;
 }
 
@@ -109,7 +117,7 @@ html {
   text-align: center;
   margin: 0;
   margin-bottom: 12px;
-  padding-top: 66px;
+
 }
 
 .card-info {
@@ -169,9 +177,9 @@ html {
   transition: border-radius 300ms linear;
 }
 .card-info {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-items: center; */
 }
 
 .other:active,
@@ -184,18 +192,17 @@ html {
     margin-bottom: 20px;
   }
 
-  .navigation {
-    margin-top: 30px;
-  }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .home-page {
+    padding-top: 40px;
+    padding-bottom: 230px;
     background-image: url("../img/image/Vector\ Smart\ Object\ Tablet.jpg");
   }
 
   .navigation {
-    padding-top: 40px;
     margin-bottom: 140px;
   }
 
@@ -220,23 +227,21 @@ html {
   .search {
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 230px;
+   
   }
 
-  /* .card-info {
-    margin-bottom: 40px;
-  } */
+  
 
   .card-info [class*="col-"]:nth-child(odd) {
     margin-bottom: 56px;
   }
   .card-info {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
     margin-bottom: 40px;
   }
 
@@ -264,12 +269,14 @@ html {
 
 @media (min-width: 1200px) {
   .home-page {
+    padding-top: 30px;
+    padding-bottom: 230px;
     background-image: url("../img/image/Vector\ Smart\ Object\ Desctop.jpg");
   }
   .card-info {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row; */
   }
 
   .best-partner {
@@ -277,7 +284,7 @@ html {
   }
 
   .navigation {
-    margin-top: 38px;
+  
     margin-bottom: 140px;
   }
 
@@ -302,7 +309,6 @@ html {
   .search {
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 230px;
     cursor: pointer;
   }
 
