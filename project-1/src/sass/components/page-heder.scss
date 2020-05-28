@@ -10,6 +10,15 @@
     cursor: pointer;
     list-style: none;
   }
+  &__burger {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: $secondory-dark-color;
+  }
+  &__burger:not(:last-child) {
+    margin-bottom: 3px;
+  }
 
   &__button-two {
     font-family: $font-Montserrat-bold;
