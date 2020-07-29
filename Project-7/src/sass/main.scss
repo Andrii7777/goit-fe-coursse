@@ -1,0 +1,26 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import 'helpers/variables';
+@import 'helpers/mixin';
+@import 'helpers/placeholder';
+@import 'normalize';
+@import 'fonts';
+@import 'base';
+
+@import 'helpers/container.scss';
+@import 'helpers/link.scss';
+@import 'helpers/list.scss';
+@import 'helpers/visually-hidden.scss';
+@import 'components/page-heder.scss';
+@import 'components/page-section.scss';
+@import 'components/one-section.scss';
+@import 'components/two-section.scss';
+@import 'components/three-section.scss';
+@import 'components/four-section .scss';
+@import 'components/five-section.scss';
+@import 'components/six-section.scss';
+@import 'components/seven-section.scss';
+@import 'components/eight-section.scss';
+@import 'components/nine-section.scss';
+@import 'components/foooter.scss';

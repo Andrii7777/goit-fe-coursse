@@ -1,0 +1,215 @@
+.six-section {
+  &__title {
+    @extend %zero;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $title-text-size;
+    padding-top: 40px;
+    margin-bottom: 26px;
+    line-height: $line-height-title;
+  }
+  &__title-two {
+    @extend %zero;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-size: $second-title-text-size;
+    line-height: $line-height-standart;
+    margin-bottom: 8px;
+  }
+  &__item {
+    @extend %zero;
+    padding-left: 34px;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 26px;
+    }
+  }
+  &__svg {
+    width: 26px;
+    height: 26px;
+    fill: #ff6b08;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__hr {
+    // @extend %zero;
+    margin-top: 0px;
+    margin-bottom: 26px;
+  }
+  &__icon {
+    @extend %reset;
+    margin-bottom: 24px;
+  }
+  &__list {
+    margin-bottom: 44px;
+  }
+  &__tekst {
+    @extend %zero;
+    font-family: $font-Montserrat-normal;
+    font-size: $first-title-text-size;
+    line-height: $line-height-title-big;
+    color: $secondory-accent-color;
+    margin-bottom: 26px;
+    padding-left: 16px;
+  }
+  &__a {
+    color: $primary-orange-color;
+    padding-left: 16px;
+  }
+  &__description {
+    @extend %zero;
+    font-size: $firset-text-size;
+    font-family: $font-Montserrat-bold;
+    line-height: $line-height-title-big;
+  }
+
+  .after::after {
+    display: inline-block;
+    content: '';
+    margin-top: 10px;
+    position: absolute;
+    left: 16px;
+    bottom: -24px;
+    width: 26px;
+    height: 2px;
+    background-color: #ff6b08;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .six-section {
+    &__title {
+      font-size: $three-title-text-size;
+      margin-bottom: 30px;
+      padding-top: 50px;
+    }
+    &__wrapper {
+      @include space-between($type: 'all');
+    }
+    &__wrapper-two {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px;
+      width: 410px;
+    }
+    &__title-two {
+      font-size: $title-text-size;
+      margin-bottom: 18px;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__tekst {
+      padding: 0px;
+    }
+    &__a {
+      padding: 0px;
+    }
+    .after::after {
+      left: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .six-section {
+    &__title {
+      font-size: $two-title-text;
+      margin-bottom: 40px;
+      padding-top: 0px;
+    }
+    &__wrapper {
+      @include space-between($type: 'all');
+    }
+    &__wrapper-two {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px;
+      width: 640px;
+    }
+    &__title-two {
+      font-size: $first-text-size-two;
+      margin-bottom: 18px;
+    }
+    &__tekst {
+      font-size: $second-title-text-size;
+      padding: 0px;
+    }
+    &__description {
+      width: 422px;
+      font-size: $second-title-text-size;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__svg {
+      width: 32px;
+      height: 32px;
+    }
+    &__a {
+      font-family: $font-Montserrat-normal;
+      font-size: $average-text-size;
+      padding: 0px;
+    }
+    .after::after {
+      left: 0px;
+    }
+    br {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 1680px) {
+  .six-section {
+    &__title {
+      font-size: $title-text;
+      margin-bottom: 70px;
+      padding-top: 120px;
+    }
+    &__wrapper {
+      @include space-between($type: 'all');
+    }
+    &__wrapper-two {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px;
+      width: 762px;
+    }
+    &__title-two {
+      font-size: $first-text-size-two;
+      margin-bottom: 18px;
+    }
+    &__tekst {
+      font-size: $average-text-size;
+      padding: 0px;
+      margin-bottom: 16px;
+    }
+    &__svg {
+      width: 32px;
+      height: 32px;
+    }
+    &__description {
+      width: 482px;
+      font-size: $average-text-size;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 18px;
+      }
+    }
+    &__a {
+      font-family: $font-Montserrat-normal;
+      font-size: $average-text-size;
+      padding: 0px;
+    }
+    .after::after {
+      left: 0px;
+    }
+    br {
+      display: none;
+    }
+  }
+}

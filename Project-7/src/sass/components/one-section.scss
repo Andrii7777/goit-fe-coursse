@@ -1,0 +1,290 @@
+.one-section {
+  background-image: url('../images/Sha_320-min.png');
+  @extend %background-standart;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  &__title {
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    @extend %reset;
+    padding-top: 58px;
+    margin-bottom: 38px;
+    font-size: $title-text-size;
+    line-height: $line-height-title;
+  }
+
+  &__description {
+    @extend %reset;
+    margin-bottom: 38px;
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    font-size: $secondary-title-text-size;
+    line-height: $line-height-standart;
+  }
+  &__description--gray {
+    color: $first-gray-color;
+  }
+  &__description--orange {
+    color: $primary-orange-color;
+  }
+  &__button {
+    font-family: $font-Montserrat-bold;
+    font-weight: bold;
+    @include center-flex($type: 'all');
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    @extend %button;
+    margin-bottom: 38px;
+    color: $primary-white-color;
+    background-color: $primary-orange-color;
+    text-transform: uppercase;
+    font-size: $first-title-text-size;
+    line-height: $line-height-standart;
+  }
+  &__picture {
+    @include center-flex($type: 'all');
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+  &__list {
+    padding-bottom: 50px;
+  }
+  &__icon {
+    @include center-flex($type: 'all');
+  }
+  &__imeges {
+    position: relative;
+  }
+
+  &__svg {
+    fill: $primary-orange-color;
+    border: $primary-orange-color solid 2px;
+  }
+  &__imge {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+  }
+  &__name {
+    font-family: $font-Montserrat-bold;
+    font-weight: bold;
+    font-size: $first-text-size;
+    line-height: $line-height-title;
+    @extend %reset;
+    width: 129px;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  &__item {
+    margin-bottom: 24px;
+  }
+  &__item:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one-section {
+    background-image: url(../images/Sha_768-min.png);
+
+    &__wrapper {
+      @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 60px;
+      margin-bottom: 114px;
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      margin: 0;
+    }
+    &__title {
+      width: 250px;
+      padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+    &__item {
+      margin: 0;
+    }
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .page-heder__button-two {
+    letter-spacing: 1px;
+    font-size: $first-text-size;
+  }
+
+  .site-navigation__a {
+    color: $first-gray-color;
+  }
+
+  .one-section {
+    background-image: url(../images/Sha_1280-min.png);
+
+    &__wrapper {
+      @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 46px;
+      margin-bottom: 132px;
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      letter-spacing: 2px;
+      font-size: $two-title-text-size;
+      width: 300px;
+      height: 65px;
+      margin: 0;
+    }
+
+    &__title {
+      font-size: $subtitle-text-size;
+      width: 500px;
+      padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+
+    &__item {
+      flex-basis: auto;
+      position: relative;
+      margin: 0;
+    }
+
+    &__description-br {
+      display: none;
+    }
+    &__description {
+      font-size: $average-text-size;
+    }
+    &__svg {
+      width: 100px;
+      height: 100px;
+    }
+    &__name {
+      margin-left: 0;
+      width: 272px;
+      font-size: $average-text-size;
+    }
+    &__name-div {
+      position: relative;
+      right: 15px;
+    }
+
+    &__imge {
+      height: 68px;
+      top: 14%;
+      left: 80%;
+    }
+    &__icon {
+      display: flex;
+      flex-basis: auto;
+    }
+  }
+}
+@media screen and (min-width: 1680px) {
+  .site-navigation__a {
+    color: $first-gray-color;
+  }
+  .site-navigation__item {
+    margin-right: 45px;
+  }
+  .one-section {
+    background-image: url(../images/Sha_1680-min.png);
+    &__wrapper {
+      @include center-flex('all');
+      justify-content: space-between;
+      padding-top: 54px;
+      margin-bottom: 110px;
+    }
+    &__tecst {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+    &__button {
+      letter-spacing: 2px;
+      font-size: $first-text-size;
+      width: 354px;
+      height: 70px;
+      margin: 0;
+    }
+
+    &__title {
+      font-size: $subtitle-text-size;
+      width: 500px;
+      padding: 0;
+    }
+    &__picture {
+      margin: 0;
+    }
+    &__list {
+      @include center-flex('all');
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: 130px;
+    }
+    &__svg {
+      margin: 0 auto;
+    }
+    &__item {
+      flex-basis: auto;
+      position: relative;
+      margin: 0;
+    }
+
+    &__description-br {
+      display: none;
+    }
+    &__description {
+      font-size: $title-text-size;
+    }
+    &__svg {
+      width: 100px;
+      height: 100px;
+    }
+    &__name {
+      margin-left: 0;
+      width: 302px;
+      font-size: $title-text-size;
+    }
+    &__name-div {
+      position: relative;
+      right: 15px;
+    }
+
+    &__imge {
+      height: 68px;
+      top: 14%;
+      left: 80%;
+    }
+  }
+}

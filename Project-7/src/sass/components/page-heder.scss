@@ -1,0 +1,123 @@
+.page-heder {
+  &__div {
+    @include center-flex('all');
+    padding-top: 22px;
+    justify-content: space-between;
+  }
+  &__a {
+    @extend %reset;
+    background-color: transparent;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  &__button-two {
+    font-family: $font-Montserrat-bold;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    border: $primary-orange-color solid 2px;
+    color: $primary-orange-color;
+    text-transform: uppercase;
+    font-size: $first-title-text-size;
+    line-height: $line-height-standart;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 767px) {
+    &__button-two {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1279px) {
+    &__a {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 1279px) {
+  .site-navigation {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page-heder {
+    &__div {
+      padding-top: 34px;
+    }
+
+    &__a {
+      margin: 0;
+    }
+    &__button-two {
+      margin-right: 46px;
+    }
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1679px) {
+  .page-heder {
+    &__div {
+      padding-top: 45px;
+    }
+    &__wrapper {
+      @include center-flex('all');
+    }
+
+    &__button-two {
+      width: 300px;
+      height: 65px;
+    }
+  }
+  .site-navigation {
+    @include center-flex('all');
+
+    &__item {
+      margin-right: 27px;
+    }
+    &__a {
+      font-size: $first-text-size;
+      font-family: $font-Montserrat-bold;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__a:hover {
+      color: $primary-orange-color;
+    }
+  }
+}
+@media screen and (min-width: 1680px) {
+  .page-heder {
+    &__div {
+      padding-top: 34px;
+    }
+    &__wrapper {
+      @include center-flex('all');
+    }
+
+    &__button-two {
+      letter-spacing: 2px;
+      font-size: $first-text-size;
+      width: 354px;
+      height: 70px;
+    }
+  }
+  .site-navigation {
+    @include center-flex('all');
+
+    &__item {
+      margin-right: 59px;
+    }
+    &__a {
+      font-size: $first-text-size;
+      font-family: $font-Montserrat-bold;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__a:hover {
+      color: $primary-orange-color;
+    }
+  }
+}

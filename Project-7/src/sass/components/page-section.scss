@@ -1,0 +1,11 @@
+.page-section {
+  &__title {
+    font-family: $fon-Montserrat-ExtraBold;
+    font-weight: bold;
+    @extend %reset;
+    padding-top: 58px;
+    margin-bottom: 38px;
+    font-size: $title-text-size;
+    line-height: $line-height-title;
+  }
+}
