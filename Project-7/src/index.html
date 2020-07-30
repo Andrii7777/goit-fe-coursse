@@ -4,34 +4,495 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Project-1</title>
+    <title>Project-7</title>
     <link rel="stylesheet" href="css/styles.css" />
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
 
+    <link rel="stylesheet" href="css/styles.css" />
+
     <!-- endinject -->
   </head>
-  //= html/page-heder.html
+  <header class="page-heder">
+    <nav class="page-heder__nav container">
+      <div class="page-heder__div">
+        <picture class="page-heder__picture">
+          <source
+            srcset="../build/images/logo_768-min.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="page-heder__logo"
+            src="../build/images/logo_320-min.png"
+            alt="Лого"
+          />
+        </picture>
+        <div class="page-heder__wrapper">
+          <ul class="site-navigation list">
+            <li class="site-navigation__item">
+              <a class="site-navigation__a link" href="#"
+                >GO-TO-MARKET STRATEGIES THAT HELP YOU GROW</a
+              >
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__a link" href="#">о нас</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__a link" href="#">варианты обучения</a>
+            </li>
+            <li class="site-navigation__item">
+              <a class="site-navigation__a link" href="#">контакты</a>
+            </li>
+          </ul>
+          <div class="page-heder__div-two">
+            <button class="page-heder__button-two">
+              консультация по телефону
+            </button>
+            <a class="page-heder__a" href="#">
+              <img src="../build/images/burger.png" alt="#" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
   <body>
     <main>
-      //= html/one-section.html
+      <section class="one-section">
+        <div class="one-section__div container">
+          <div class="one-section__wrapper">
+            <div class="one-section__tecst">
+              <h1 class="one-section__title">
+                Комплексная подготовка к ВНО <br />
+                по английскому языку
+              </h1>
+              <p class="one-section__description">
+                <span class="one-section__description--gray"
+                  >Просто не будет.</span
+                ><br />
+                Но ты гарантировано наберешь<br
+                  class="one-section__description-br"
+                />
+                <span class="one-section__description--orange">+25 баллов</span>
+              </p>
+
+              <button class="one-section__button">
+                хочу на бесплатное занятие
+              </button>
+            </div>
+            <div class="one-section__container">
+              <picture class="one-section__picture">
+                <source
+                  srcset="../build/images/Pic_1680-min.png"
+                  media="(min-width: 1680px) "
+                />
+                <source
+                  srcset="../build/images/Pic_1280-min.png"
+                  media="(min-width: 1280px) and (max-width: 1679px)"
+                />
+                <source
+                  srcset="../build/images/Pic_768-min.png"
+                  media="(min-width: 768px) and (max-width: 1279px)"
+                />
+                <img
+                  class="one-section__img"
+                  src="../build/images/Pic_320-min.png"
+                  alt="Люди"
+                />
+              </picture>
+            </div>
+          </div>
+          <ul class="one-section__list list">
+            <li class="one-section__item link">
+              <div class="one-section__icon">
+                <div class="one-section__imeges">
+                  <svg class="one-section__svg" width="60px" height="60px">
+                    <use
+                      href="../build/images/sprite/sprite .svg#noun_FemaleStudent"
+                    ></use>
+                  </svg>
+                  <img
+                    height="32px"
+                    class="one-section__imge"
+                    src="../build/images/Rectangle 9.png"
+                    alt=""
+                  />
+                </div>
+                <div class="one-section__name-div">
+                  <p class="one-section__name">
+                    Адаптированная авторская программа ВНО
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="one-section__item link">
+              <div class="one-section__icon">
+                <div class="one-section__imeges">
+                  <svg class="one-section__svg" width="60px" height="60px">
+                    <use
+                      href="../build/images/sprite/sprite .svg#noun_MobileLearning"
+                    ></use>
+                  </svg>
+                  <img
+                    height="32px"
+                    class="one-section__imge"
+                    src="../build/images/Rectangle 9.png"
+                    alt=""
+                  />
+                </div>
+                <div class="one-section__name-div">
+                  <p class="one-section__name">
+                    Современные методики обучения
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="one-section__item link">
+              <div class="one-section__icon">
+                <div class="one-section__imeges">
+                  <svg class="one-section__svg" width="60px" height="60px">
+                    <use
+                      href="../build/images/sprite/sprite .svg#noun_insurance"
+                    ></use>
+                  </svg>
+                  <img
+                    height="32"
+                    class="one-section__imge"
+                    src="../build/images/Rectangle 9.png"
+                    alt=""
+                  />
+                </div>
+                <div class="one-section__name-div">
+                  <p class="one-section__name">
+                    Финансовая гарантия результата
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div></div>
-      //= html/two-section.html
+      <section class="two-section">
+        <div class="two-section__div container">
+          <h1 class="two-section__title">
+            Главные проблемы учеников <br class="two-section__title-br" />
+            на English ВНО, которые мы
+            <span class="two-section__title--color">помогаем</span> решить
+          </h1>
+          <ul class="two-section__list list">
+            <li lass="two-section__items link">
+              <p class="two-section__p">Незнание грамматики</p>
+            </li>
+            <li lass="two-section__items link">
+              <p class="two-section__p">
+                Неумение воспринимать устную английскую речь
+              </p>
+            </li>
+            <li lass="two-section__items link">
+              <p class="two-section__p">
+                Скупой словарный запас для написания сочинения
+              </p>
+            </li>
+            <li lass="two-section__items link">
+              <p class="two-section__p">Подготовка в одиночку</p>
+            </li>
+            <li lass="two-section__items link">
+              <p class="two-section__p">Отсутствие единого ресурса знаний</p>
+            </li>
+            <li lass="two-section__items link">
+              <p class="two-section__p">Недостаток самоорганизации и лень</p>
+            </li>
+          </ul>
+        </div>
+      </section>
       <div></div>
-      //= html/three-section.html
+      <section class="three-section container">
+        <h1 class="three-section__title">Как мы это делаем</h1>
+        <ul class="three-section__list list">
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_studyprogram"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Адаптированная программа подготовки к ВНО
+              </h2>
+              <p class="three-section__description">
+                Ты будешь изучать грамматику и лексику одновременно. И ты
+                научишься писать сочинения
+              </p>
+            </div>
+          </li>
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_MobileLearnin"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Аудиторное <br />
+                и онлайн-обучение
+              </h2>
+              <p class="three-section__description">
+                Учитель поможет не только в аудитории, но и во время домашней
+                подготовки.Родители могут участвовать в чате при желанни
+              </p>
+            </div>
+          </li>
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_openbook"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Привычка читать <br />
+                на английском языке
+              </h2>
+              <p class="three-section__description">
+                Статьи из источников, которые используются при разработке
+                настоящего ВНО, будут приходить на телефон дважды в неделю
+              </p>
+            </div>
+          </li>
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_globalcommunication"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Психологическая <br />
+                поддержка
+              </h2>
+              <p class="three-section__description">
+                r Мы научим тебя методикам прохождения тестирований, умению
+                планировать свою подготовку уверености в себе
+              </p>
+            </div>
+          </li>
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_FemaleStuden"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Обучение по автроским <br />
+                пособиям
+              </h2>
+              <p class="three-section__description">
+                Тебе не нужно тратить время на самостоятельный поиск материала и
+                ничего покупать дополнительно Мы составили 2 пособия для тебя
+              </p>
+            </div>
+          </li>
+          <li class="three-section__item link">
+            <div class="three-section__icon">
+              <svg class="three-section__svg" width="54px" height="56px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_AudioBook"
+                ></use>
+              </svg>
+            </div>
+            <div class="three-section__div">
+              <h2 class="three-section__heading">
+                Умение воспринивать устную английскую речь
+              </h2>
+
+              <p class="three-section__description">
+                “F.R.I.E.N.D.S” тебе не помогут. Ты будешь регулярно слушать и
+                разбирать аудиозаписи в соответствии с изучаемой лексикой
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
       <div></div>
-      //= html/four-section.html
-      <div></div>
-      //= html/five-section.html
-      <div></div>
-      //= html/six-section.html
-      <div></div>
-      //= html/seven-section.html
-      <div></div>
-      //= html/eight-section.html
-      <div></div>
-      //= html/nine-section.html
+      <section class="four-section">
+        <div class="four-section__wrapper container">
+          <h1 class="four-section__title">Наша программа</h1>
+          <ul class="four-section__list list">
+            <li class="four-section__item link">
+              <h2 class="four-section__heading">1 семестр</h2>
+              <div class="four-section__div">
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Grammar</h3>
+                  <p class="four-section__description">
+                    Nouns & Articles<br />
+                    Adjectives & Adverb
+                  </p>
+                </div>
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Vocabulary</h3>
+                  <p class="four-section__description">
+                    Family & Relations<br />
+                    People & Society
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="four-section__item link">
+              <h2 class="four-section__heading">2 семестр</h2>
+              <div class="four-section__div">
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Grammar</h3>
+                  <p class="four-section__description">
+                    Pronouns<br />
+                    Active Voice<br />
+                    Passive Voice
+                  </p>
+                </div>
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Vocabulary</h3>
+                  <p class="four-section__description">
+                    Home <br />School<br />
+                    Work
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="four-section__item link">
+              <h2 class="four-section__heading">3 семестр</h2>
+              <div class="four-section__div">
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Grammar</h3>
+                  <p class="four-section__description">
+                    Modal verbs<br />
+                    Infinitive<br />
+                    Gerund<br />
+                    Participle: 1, 2
+                  </p>
+                </div>
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Vocabulary</h3>
+                  <p class="four-section__description">
+                    Travel & Tourism <br />
+                    Culture & Free Time<br />
+                    Sport
+                  </p>
+                </div>
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Writing</h3>
+                  <p class="four-section__description">Informal Letter</p>
+                </div>
+              </div>
+            </li>
+            <li class="four-section__item link">
+              <h2 class="four-section__heading">4 семестр</h2>
+              <div class="four-section__div">
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Grammar</h3>
+                  <p class="four-section__description">
+                    Clauses: Conditional<br />
+                    and Wishes<br />
+                    Direct / Reported speech<br />
+                    Preposition<br />
+                    Conjunction Numeral
+                  </p>
+                </div>
+
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Vocabulary</h3>
+                  <p class="four-section__description">
+                    Healthy Living <br />
+                    Nature & Environment <br />Money
+                  </p>
+                </div>
+
+                <div class="four-section__wrapper-two">
+                  <h3 class="four-section__title-h3">Writing</h3>
+                  <p class="four-section__description">Formal Letter</p>
+                </div>
+              </div>
+            </li>
+            <li class="four-section__item link">
+              <h2 class="four-section__heading">5 семестр</h2>
+              <h3 class="four-section__title-h3">
+                <span class="four-section__visually">a</span>
+              </h3>
+              <p class="four-section__description-one list">
+                Revision <br />
+                Tests
+              </p>
+
+              <picture class="four-section__icon">
+                <source
+                  srcset="../build/images/picc_1680-min.png"
+                  media="(min-width: 1680px) "
+                />
+                <source
+                  srcset="../build/images/picc_1280-min.png"
+                  media="(min-width: 1280px) and (max-width: 1679px)"
+                />
+                <source
+                  srcset="../build/images/picc_768-min.png"
+                  media="(min-width: 768px) and (max-width: 1279px)"
+                />
+                <img
+                  class="four-section__img"
+                  src="../build/images/picc _320-min.png"
+                  alt="Люди"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    //= html/foot.html
+    <footer class="foot">
+      <div class="footer container">
+        <div class="footer__list">
+          <a class="footer__tel" href="tel.. "
+            ><span>
+              <svg class="footer__svg" width="22px" height="24px">
+                <use
+                  href="../build/images/sprite/sprite .svg#noun_call"
+                ></use></svg></span
+            >+380 (000) 000 00 00</a
+          >
+        </div>
+        <div class="footer__list-two">
+          <a class="footer__instagram" href="#">
+            <img src="../build/images/instagram.png" alt="instagram" />
+          </a>
+        </div>
+        <div class="footer__list-Three">
+          <a class="footer__logo" href="">
+            <picture class="footer__picture">
+              <source
+                srcset="../build/images/logo_768-min.png"
+                media="(min-width: 768px)"
+              />
+              <img src="../build/images/logo_320-min.png" alt="" />
+            </picture>
+          </a>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__wrapper-two container">
+          <p class="footer__description">
+            <span>&copy;</span> Все права защищены, 2019
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
