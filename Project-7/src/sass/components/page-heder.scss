@@ -1,5 +1,5 @@
 .page-heder {
-  background-image: url('/src/images/Forabilis\ Site\ Mobile\ 01-min.png');
+  background-image: url('../images/Forabilis\ Site\ Mobile\ 01-min.png');
   @extend %background-standart;
   width: 340px;
   height: 560px;
@@ -114,7 +114,7 @@
 // }
 @media screen and (min-width: 1920px) {
   .page-heder {
-    background-image: url('/build/images/2-min.png');
+    background-image: url('../images/2-min.png');
     width: 1917px;
     height: 1081px;
     &__div {
