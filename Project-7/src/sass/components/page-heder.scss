@@ -10,6 +10,7 @@
     justify-content: space-between;
   }
   &__headline {
+    display: block;
     width: 270px;
     font-weight: 400;
     font-style: normal;
@@ -25,6 +26,7 @@
     margin-bottom: 25px;
   }
   &__text {
+    display: inline-block;
     font-family: $fon-Assistant;
     color: $primary-white-color;
     line-height: $line-height-two;
