@@ -1,95 +1,122 @@
 .page-heder {
+  background-image: url('/src/images/Forabilis\ Site\ Mobile\ 01-min.png');
+  @extend %background-standart;
+  width: 340px;
+  height: 560px;
+  margin: 0 auto;
   &__div {
     @include center-flex('all');
-    padding-top: 22px;
+    padding-top: 9px;
     justify-content: space-between;
   }
+  &__headline {
+    width: 240px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: $fon-Impact;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    font-size: 33px;
+    line-height: $line-height-standart;
+    margin: 0;
+    margin-bottom: 13px;
+  }
+  &__div {
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: $fon-Assistant;
+    color: $primary-white-color;
+    line-height: $line-height-two;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 224px;
+    margin: 0px;
+  }
+
   &__a {
     @extend %reset;
     background-color: transparent;
     cursor: pointer;
     list-style: none;
   }
-
-  &__button-two {
-    font-family: $font-Montserrat-bold;
-    font-weight: bold;
-    width: 250px;
-    height: 50px;
-    border: $primary-orange-color solid 2px;
-    color: $primary-orange-color;
-    text-transform: uppercase;
-    font-size: $first-title-text-size;
-    line-height: $line-height-standart;
-    background-color: transparent;
-    cursor: pointer;
+  &__span {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: $secondory-dark-color;
+    margin-bottom: 14px;
   }
-
-  @media screen and (max-width: 767px) {
-    &__button-two {
-      display: none;
-    }
+  &__burger {
+    display: block;
+    width: 22px;
+    height: 5px;
+    background-color: $primary-white-color;
   }
-
-  @media screen and (min-width: 1279px) {
-    &__a {
-      display: none;
-    }
+  &__burger:not(:last-child) {
+    margin-bottom: 3px;
   }
 }
-@media screen and (max-width: 1279px) {
-  .site-navigation {
-    display: none;
-  }
+.site-navigation {
+  display: none;
 }
+// @media screen and (max-width: 1279px) {
+//   .site-navigation {
+//     display: none;
+//   }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+// @media screen and (min-width: 768px) and (max-width: 1279px) {
+//   .page-heder {
+//     &__div {
+//       padding-top: 34px;
+//     }
+
+//     &__a {
+//       margin: 0;
+//     }
+//     &__button-two {
+//       margin-right: 46px;
+//     }
+//   }
+// }
+// @media screen and (min-width: 1280px) and (max-width: 1679px) {
+//   .page-heder {
+//     &__div {
+//       padding-top: 45px;
+//     }
+//     &__wrapper {
+//       @include center-flex('all');
+//     }
+
+//     &__button-two {
+//       width: 300px;
+//       height: 65px;
+//     }
+//   }
+//   .site-navigation {
+//     @include center-flex('all');
+
+//     &__item {
+//       margin-right: 27px;
+//     }
+//     &__a {
+//       font-size: 10px;
+//       font-family: $font-Montserrat-bold;
+//       font-weight: bold;
+//       text-transform: uppercase;
+//     }
+//     &__a:hover {
+//       color: $primary-orange-color;
+//     }
+//   }
+// }
+@media screen and (min-width: 1920px) {
   .page-heder {
-    &__div {
-      padding-top: 34px;
-    }
-
-    &__a {
-      margin: 0;
-    }
-    &__button-two {
-      margin-right: 46px;
-    }
-  }
-}
-@media screen and (min-width: 1280px) and (max-width: 1679px) {
-  .page-heder {
-    &__div {
-      padding-top: 45px;
-    }
-    &__wrapper {
-      @include center-flex('all');
-    }
-
-    &__button-two {
-      width: 300px;
-      height: 65px;
-    }
-  }
-  .site-navigation {
-    @include center-flex('all');
-
-    &__item {
-      margin-right: 27px;
-    }
-    &__a {
-      font-size: 10px;
-      font-family: $font-Montserrat-bold;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-    &__a:hover {
-      color: $primary-orange-color;
-    }
-  }
-}
-@media screen and (min-width: 1680px) {
-  .page-heder {
+    background-image: url('/build/images/2-min.png');
+    width: 1917px;
+    height: 1081px;
     &__div {
       padding-top: 34px;
     }
@@ -112,7 +139,7 @@
     }
     &__a {
       font-size: $first-text-size;
-      font-family: $font-Montserrat-bold;
+      // font-family: $font-Montserrat-bold;
       font-weight: bold;
       text-transform: uppercase;
     }
