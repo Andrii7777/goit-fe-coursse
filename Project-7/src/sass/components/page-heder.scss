@@ -8,7 +8,7 @@
   &::before {
     position: absolute;
     content: '';
-    top: 500px;
+    top: 501px;
     left: 0px;
     background-image: url('../images/77777777.png');
     width: 135px;
@@ -142,7 +142,6 @@
       display: inline-block;
       content: '';
       bottom: 0px;
-      // top: 50%;
       left: 50%;
       transform: translateX(-50%);
     }
