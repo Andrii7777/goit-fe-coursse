@@ -10,7 +10,7 @@
     justify-content: space-between;
   }
   &__headline {
-    display: block;
+    display: inline-block;
     width: 280px;
     font-weight: 400;
     font-style: normal;
@@ -26,7 +26,7 @@
     margin-bottom: 25px;
   }
   &__text {
-    display: block;
+    display: inline-block;
     font-family: $fon-Assistant;
     color: $primary-white-color;
     line-height: $line-height-two;
@@ -63,74 +63,25 @@
 .site-navigation {
   display: none;
 }
-// @media screen and (max-width: 1279px) {
-//   .site-navigation {
-//     display: none;
-//   }
-// }
 
-// @media screen and (min-width: 768px) and (max-width: 1279px) {
-//   .page-heder {
-//     &__div {
-//       padding-top: 34px;
-//     }
-
-//     &__a {
-//       margin: 0;
-//     }
-//     &__button-two {
-//       margin-right: 46px;
-//     }
-//   }
-// }
-// @media screen and (min-width: 1280px) and (max-width: 1679px) {
-//   .page-heder {
-//     &__div {
-//       padding-top: 45px;
-//     }
-//     &__wrapper {
-//       @include center-flex('all');
-//     }
-
-//     &__button-two {
-//       width: 300px;
-//       height: 65px;
-//     }
-//   }
-//   .site-navigation {
-//     @include center-flex('all');
-
-//     &__item {
-//       margin-right: 27px;
-//     }
-//     &__a {
-//       font-size: 10px;
-//       font-family: $font-Montserrat-bold;
-//       font-weight: bold;
-//       text-transform: uppercase;
-//     }
-//     &__a:hover {
-//       color: $primary-orange-color;
-//     }
-//   }
-// }
 @media screen and (min-width: 1920px) {
   .page-heder {
-    background-image: url('../images/2-min.png');
-    width: 1917px;
+    background-image: url('../images/556-min.png');
+    width: 1920px;
     height: 1081px;
+    &__burger {
+      display: none;
+    }
+    &__headline {
+      width: 280px;
+      font-weight: 400;
+      font-style: normal;
+
+      margin: 0;
+      margin-bottom: 13px;
+    }
     &__div {
       padding-top: 34px;
-    }
-    &__wrapper {
-      @include center-flex('all');
-    }
-
-    &__button-two {
-      letter-spacing: 2px;
-      font-size: $first-text-size;
-      width: 354px;
-      height: 70px;
     }
   }
   .site-navigation {
