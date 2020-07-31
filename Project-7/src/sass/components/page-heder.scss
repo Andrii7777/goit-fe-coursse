@@ -27,7 +27,7 @@
   }
   &__text {
     display: inline-block;
-    font-family: $fon-Assistant;
+    // font-family: $fon-Assistant;
     color: $primary-white-color;
     line-height: $line-height-two;
     font-weight: 400;
@@ -73,31 +73,71 @@
       display: none;
     }
     &__headline {
-      width: 280px;
+      width: 560px;
       font-weight: 400;
       font-style: normal;
-
-      margin: 0;
-      margin-bottom: 13px;
+      font-size: 75px;
+      margin-left: 313px;
+      margin-bottom: 42px;
+    }
+    &__text {
+      color: $primary-white-color;
+      line-height: $line-height-two;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 32px;
+      width: 402px;
+      margin-left: 313px;
+    }
+    &__span {
+      width: 120px;
+      height: 6px;
+      margin-bottom: 42px;
+      margin-left: 313px;
     }
     &__div {
-      padding-top: 34px;
+      padding-top: 28px;
+      margin-bottom: 110px;
+    }
+    &__wrapper {
+      @include center-flex('all');
     }
   }
   .site-navigation {
     @include center-flex('all');
 
     &__item {
-      margin-right: 59px;
+      position: relative;
+      margin-right: 50px;
+      padding-bottom: 48px;
+    }
+    &__item::after {
+      position: absolute;
+      width: 135px;
+      height: 6px;
+      display: inline-block;
+      content: '';
+      bottom: 0px;
+      // top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__item:hover::after {
+      background-color: $secondory-dark-color;
+    }
+    &__item:last-child {
+      margin-right: 0px;
     }
     &__a {
-      font-size: $first-text-size;
-      // font-family: $font-Montserrat-bold;
-      font-weight: bold;
+      color: $primary-white-color;
+      // font-family: $fon-Assistant;
+      font-weight: 600;
       text-transform: uppercase;
+      line-height: $line-height-two;
+      font-size: 22px;
     }
     &__a:hover {
-      color: $primary-orange-color;
+      color: $hover-color-two;
     }
   }
 }
