@@ -1,9 +1,22 @@
 .page-heder {
+  position: relative;
   background-image: url('../images/Forabilis\ Site\ Mobile\ 01-min.png');
   @extend %background-standart;
   width: 100%;
   height: 560px;
   margin: 0 auto;
+  &::before {
+    position: absolute;
+    content: '';
+    top: 500px;
+    background-image: url('/build/images/77777777.png');
+    width: 135px;
+    height: 60px;
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
   &__div {
     @include center-flex('all');
     padding-top: 9px;
@@ -103,15 +116,18 @@
       @include center-flex('all');
     }
   }
+
   .site-navigation {
     @include center-flex('all');
 
     &__item {
-      position: relative;
       margin-right: 50px;
+    }
+    &__a {
+      position: relative;
       padding-bottom: 48px;
     }
-    &__item::after {
+    &__a::after {
       position: absolute;
       width: 135px;
       height: 6px;
@@ -122,7 +138,7 @@
       left: 50%;
       transform: translateX(-50%);
     }
-    &__item:hover::after {
+    &__a:hover::after {
       background-color: $secondory-dark-color;
     }
     &__item:last-child {
