@@ -17,6 +17,22 @@
     line-height: $line-title;
     max-width: 100px;
   }
+  &__picture {
+    margin: 0px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      top: 74.9px;
+      left: 20px;
+      background-image: url('../images/Vector\ Smart\ Objec000t.png');
+      width: 13px;
+      height: 13px;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+  }
   &__div-wraper {
     padding-top: 18px;
   }
@@ -39,20 +55,7 @@
     font-size: 20px;
     text-transform: uppercase;
   }
-  // &__text-div {
-  //   position: relative;
-  //   &::before {
-  //     display: inline-block;
-  //     content: '';
-  //     position: absolute;
-  //     border-left: 2px dashed #858585;
-  //     height: 100%;
-  //     top: 0px;
-  //     left: 4px;
-  //   }
-  //   &::after {
-  //   }
-  // }
+
   &__div-1 {
     // font-family: $fon-Assistant;
     margin: 0px;
@@ -80,6 +83,7 @@
       border-top: 2px dotted $first-gray-color;
       width: 100%;
       top: 147px;
+
       left: 0px;
       z-index: 1;
     }
