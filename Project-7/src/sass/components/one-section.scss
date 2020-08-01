@@ -6,22 +6,80 @@
   margin: 0 auto;
 
   &__title {
-    // font-family: $fon-Montserrat-ExtraBold;
     font-weight: bold;
     @extend %reset;
-    padding-top: 58px;
-    margin-bottom: 38px;
-    font-size: $title-text-size;
-    line-height: $line-height-title;
+    font-weight: 400;
+    font-style: normal;
+    font-family: $fon-Impact;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 33px;
+    line-height: $line-title;
+    max-width: 100px;
+  }
+  &__div-wraper {
+    padding-top: 18px;
+  }
+  &__span {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: $hover-color-two;
+    // margin-bottom: 14px;
+  }
+  &__div-wraper {
+    @include space-between($type: 'all');
+    @include center-flex($type: 'ver');
+    margin-bottom: 16px;
   }
   &__text {
+    // font-family: $fon-Assistant;
+    font-weight: 600;
+    text-align: start;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  &__text-1 {
+    // font-family: $fon-Assistant;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: $line-height-title-big;
     text-align: start;
   }
   &__list {
     @include space-between($type: 'all');
     @include flex-wrap($type: 'all');
     padding: 0px;
+    margin: 0px;
     margin-bottom: 14px;
+  }
+  &__wraper {
+    @include space-between($type: 'all');
+    @include center-flex($type: 'ver');
+    padding-bottom: 14px;
+  }
+  &__button {
+    // font-family: $fon-Assistant;
+    background-color: $hover-color-two;
+    border: 0px;
+    color: $primary-white-color;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    width: 106px;
+    height: 34px;
+    line-height: $line-title;
+  }
+  &__name {
+    // font-family: $fon-Assistant;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: $line-title;
   }
   &__item {
     @include center-flex($type: 'ver');
@@ -42,6 +100,7 @@
 
     &:hover {
       background-color: $hover-color-two;
+      color: $primary-white-color;
     }
   }
 }
