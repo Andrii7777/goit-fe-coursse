@@ -54,6 +54,11 @@
     text-align: start;
     font-size: 20px;
     text-transform: uppercase;
+    margin: 0px;
+  }
+  &__text-1 {
+    line-height: $line-height;
+    margin: 0px;
   }
 
   &__div-1 {
@@ -72,7 +77,7 @@
       border-top: 2px dotted $hover-color-one;
       // border: dotted;
       width: 100%;
-      top: 67px;
+      top: 47px;
       left: 0px;
       z-index: 1;
     }
@@ -82,7 +87,7 @@
       position: absolute;
       border-top: 2px dotted $hover-color-one;
       width: 100%;
-      top: 147px;
+      top: 119px;
 
       left: 0px;
       z-index: 1;
@@ -145,77 +150,130 @@
   }
 }
 
-//   .site-navigation__item {
-//     margin-right: 45px;
-//   }
-//   .one-section {
-//     background-image: url(../images/Sha_1680-min.png);
-//     &__wrapper {
-//       @include center-flex('all');
-//       justify-content: space-between;
-//       padding-top: 54px;
-//       margin-bottom: 110px;
-//     }
-//     &__tecst {
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: start;
-//     }
-//     &__button {
-//       letter-spacing: 2px;
-//       font-size: $first-text-size;
-//       width: 354px;
-//       height: 70px;
-//       margin: 0;
-//     }
+@media screen and (min-width: 1920px) {
+  // br {
+  //   display: none;
+  // }
+  .one-section {
+    &__wraper {
+      position: absolute;
+      top: 859px;
+      left: 635px;
+      width: 420px;
+      padding: 0px;
+    }
+    &__button {
+      width: 140px;
+      height: 50px;
+      font-size: 22px;
+    }
+    &__text {
+      font-size: 32px;
+    }
+    &__text-1 {
+      line-height: $line-height-title-big;
+      font-size: 22px;
+    }
+    &__br {
+      display: none;
+    }
+    &__div-1 {
+      &::before {
+        border-top: 4px dotted #413e34;
+        top: 38px;
+      }
+      &::after {
+        border-top: 4px dotted #413e34;
+        top: 115px;
+      }
+    }
 
-//     &__title {
-//       font-size: $subtitle-text-size;
-//       width: 500px;
-//       padding: 0;
-//     }
-//     &__picture {
-//       margin: 0;
-//     }
-//     &__list {
-//       @include center-flex('all');
-//       align-items: flex-start;
-//       justify-content: space-between;
-//       padding-bottom: 130px;
-//     }
-//     &__svg {
-//       margin: 0 auto;
-//     }
-//     &__item {
-//       flex-basis: auto;
-//       position: relative;
-//       margin: 0;
-//     }
+    &__picture {
+      display: none;
+    }
+    &__div-2 {
+      width: 1460px;
+      margin: 0 auto;
+    }
+    &__div-3 {
+      position: relative;
+      &::after {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        border-top: 2px dotted #413e34;
+        width: 123px;
+        top: 617px;
+        left: 1300px;
+        z-index: 5;
+      }
 
-//     &__description-br {
-//       display: none;
-//     }
-//     &__description {
-//       font-size: $title-text-size;
-//     }
-//     &__svg {
-//       width: 100px;
-//       height: 100px;
-//     }
-//     &__name {
-//       margin-left: 0;
-//       width: 302px;
-//       font-size: $title-text-size;
-//     }
-//     &__name-div {
-//       position: relative;
-//       right: 15px;
-//     }
+      margin-left: 130px;
+      margin-right: 56px;
+      padding-bottom: 180px;
+    }
+    &__list {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        top: -121px;
+        left: 628px;
 
-//     &__imge {
-//       height: 68px;
-//       top: 14%;
-//       left: 80%;
-//     }
-//   }
-// }
+        background-image: url('../images/VectorSmartObjec-2-min.png');
+        width: 645px;
+        height: 374px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        z-index: 1;
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        top: 184px;
+        left: 711px;
+        background-image: url('/build/images/Vector\ Smart\ Objec88t.png');
+        width: 52px;
+        height: 52px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        z-index: 2;
+      }
+      // display: inline-block;
+      width: 590px;
+      height: 542px;
+      margin: 0;
+    }
+    &__div-wraper {
+      margin: 0px;
+    }
+    &__div-wraper {
+      padding-top: 190px;
+    }
+    &__name {
+      font-size: 22px;
+    }
+    &__span {
+      width: 116px;
+      height: 8px;
+      margin-bottom: 46px;
+    }
+    &__title {
+      width: 100%;
+      font-size: 75px;
+      margin-bottom: 40px;
+    }
+    &__item {
+      // display: inline-block;
+      width: 276px;
+      min-height: 254px;
+      margin-right: 0px;
+      padding: 15px 15px;
+
+      &:not(:nth-last-child(-n + 2)) {
+        margin-bottom: 33px;
+      }
+    }
+  }
+}
