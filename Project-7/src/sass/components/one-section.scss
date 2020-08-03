@@ -167,7 +167,7 @@
     }
 
     &__p {
-      display: none;
+      color: $background-color;
       font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
@@ -177,6 +177,7 @@
       right: 75px;
       margin: 0px;
     }
+
     &__li {
       position: relative;
     }
@@ -201,8 +202,15 @@
         background-color: $hover-color-two;
       }
     }
+    &__li:hover &__p {
+      color: $hover-color-one;
+    }
+
     &__li:last-child {
       margin-bottom: 0px;
+    }
+    &__p-1 {
+      width: 144px;
     }
     &__svg {
       @include center-flex($type: 'all');
@@ -217,6 +225,20 @@
       width: 140px;
       height: 50px;
       font-size: 22px;
+    }
+    &__p-1 {
+      color: $background-color;
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      position: absolute;
+      display: inline-block;
+      top: 10px;
+      right: 75px;
+      margin: 0px;
+    }
+    &__li:hover &__p-1 {
+      color: $hover-color-one;
     }
     &__text {
       font-size: 32px;
