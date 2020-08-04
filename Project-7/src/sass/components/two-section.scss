@@ -24,7 +24,10 @@
     color: $hover-color-one;
     margin: 0px;
     margin-left: 8px;
-    width: 247px;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: $line-height-one;
   }
   &__button {
     background-color: $background-color;
@@ -43,16 +46,34 @@
   &__big {
     color: $hover-color-one;
     font-weight: 800;
+    font-size: 13.5px;
   }
   &__color {
     color: $hover-color-two;
   }
+  &__text {
+    font-size: 13.5px;
+  }
   &__wrapper {
     background-color: $background-color;
+  }
+  &__img {
+    padding-top: 13px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .two-section {
   }
+}
+
+.bg_ {
+  background-color: rgba(29, 29, 27, 0.11);
+  box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
+  position: absolute;
+  left: 855px;
+  top: 2188px;
+  width: 390px;
+  height: 340px;
+  z-index: 169;
 }
