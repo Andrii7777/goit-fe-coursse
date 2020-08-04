@@ -13,12 +13,13 @@
     padding-top: 22px;
     margin-bottom: 18px;
   }
-  &__span {
+  &__spane {
     display: block;
     width: 50px;
     height: 4px;
     background-color: $hover-color-two;
     margin-bottom: 18px;
+    border: none;
   }
   &__p {
     color: $hover-color-one;
@@ -30,13 +31,50 @@
     line-height: $line-height-one;
   }
   &__button {
-    background-color: $background-color;
+    background-color: $secondory-accent-color;
     @include space-between($type: 'all');
     @include center-flex($type: 'ver');
+    border: none;
   }
   &__button-left {
+    background-image: url('../images/arrow\ left.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $background-color;
     width: 55px;
     height: 55px;
+    border: none;
+    padding: 0px;
+  }
+  &__button-left:hover {
+    background-color: $hover-color-two;
+  }
+  &__buton {
+    background-image: url('../images/arrow\ left\ copy\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $background-color;
+    height: 55px;
+    width: 55px;
+    border: none;
+    padding: 0px;
+  }
+
+  &__buton:hover {
+    background-color: $hover-color-two;
+  }
+  &__button-rayd {
+    background-image: url('../images/arrow\ left\ copy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $background-color;
+    border: none;
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+  }
+  &__button-rayd:hover {
+    background-color: $hover-color-two;
   }
   &__list {
     display: flex;
@@ -121,10 +159,18 @@
     background-image: url('../images/wait-1/8q.jpg');
   }
 
-  &__button-rayd {
-    width: 55px;
-    height: 55px;
+  &__wrapper-button {
+    @include center-flex($type: 'ver');
+    @include center-flex($type: 'col');
   }
+  &__text-button {
+    // font-family: $fon-Assistant;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+
   &__big {
     color: $hover-color-one;
     font-weight: 800;
@@ -140,7 +186,7 @@
     font-size: 13.5px;
   }
   &__wrapper {
-    background-color: $background-color;
+    background-color: $secondory-accent-color;
   }
   &__img {
     padding-top: 13px;
