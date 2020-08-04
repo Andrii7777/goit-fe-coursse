@@ -38,6 +38,88 @@
     width: 55px;
     height: 55px;
   }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__div-a {
+    display: none;
+  }
+
+  &__a-1 {
+    background-image: url('/build/images/blec-1/1a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-1:hover {
+    background-image: url('/build/images/wait-1/1q.jpg');
+  }
+  &__a-2 {
+    background-image: url('/build/images/blec-1/2a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-2:hover {
+    background-image: url('/build/images/wait-1/2q.jpg');
+  }
+  &__a-3 {
+    background-image: url('/build/images/blec-1/3a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-3:hover {
+    background-image: url('/build/images/wait-1/3q.jpg');
+  }
+  &__a-4 {
+    background-image: url('/build/images/blec-1/4a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-4:hover {
+    background-image: url('/build/images/wait-1/4q.jpg');
+  }
+  &__a-5 {
+    background-image: url('/build/images/blec-1/5a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-5:hover {
+    background-image: url('/build/images/wait-1/5q.jpg');
+  }
+  &__a-6 {
+    background-image: url('/build/images/blec-1/6a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+
+  &__a-6:hover {
+    background-image: url('/build/images/wait-1/6q.jpg');
+  }
+  &__a-7 {
+    background-image: url('/build/images/blec-1/7a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-7:hover {
+    background-image: url('/build/images/wait-1/7q.jpg');
+  }
+  &__a-8 {
+    background-image: url('/build/images/blec-1/8a.jpg');
+    display: inline-block;
+    width: 130px;
+    height: 110px;
+  }
+  &__a-8:hover {
+    background-image: url('/build/images/wait-1/8q.jpg');
+  }
 
   &__button-rayd {
     width: 55px;
@@ -47,6 +129,9 @@
     color: $hover-color-one;
     font-weight: 800;
     font-size: 13.5px;
+  }
+  &__items:hover &__color {
+    background-color: $hover-color-one;
   }
   &__color {
     color: $hover-color-two;
