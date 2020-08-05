@@ -412,6 +412,15 @@
     }
     &__wrapper {
       position: relative;
+      &::after {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        border-left: 2px dashed $hover-color-one;
+        height: 91%;
+        top: 14px;
+        left: 598px;
+      }
       &::before {
         position: absolute;
         content: '';
