@@ -46,6 +46,7 @@
     height: 55px;
     border: none;
     padding: 0px;
+    transition: all 0.2s linear;
   }
   &__button-left:hover {
     background-color: $hover-color-two;
@@ -59,6 +60,7 @@
     width: 55px;
     border: none;
     padding: 0px;
+    transition: all 0.2s linear;
   }
 
   &__buton:hover {
@@ -73,6 +75,7 @@
     width: 55px;
     height: 55px;
     padding: 0px;
+    transition: all 0.2s linear;
   }
   &__button-rayd:hover {
     background-color: $hover-color-two;
