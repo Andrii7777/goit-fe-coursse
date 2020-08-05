@@ -134,6 +134,7 @@
     &__a {
       position: relative;
       padding-bottom: 48px;
+      transition: all 0.2s linear;
     }
     &__a::after {
       position: absolute;
@@ -144,6 +145,7 @@
       bottom: 0px;
       left: 50%;
       transform: translateX(-50%);
+      transition: all 0.2s linear;
     }
     &__a:hover::after {
       background-color: $secondory-dark-color;

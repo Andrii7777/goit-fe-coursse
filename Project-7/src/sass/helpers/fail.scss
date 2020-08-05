@@ -2,6 +2,7 @@
   display: inline-block;
   width: 130px;
   height: 110px;
+  transition: all 0.2s linear;
 }
 @media screen and (min-width: 1920px) {
   .fail {

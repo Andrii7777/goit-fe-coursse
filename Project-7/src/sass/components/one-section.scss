@@ -129,7 +129,6 @@
   &__item {
     @include center-flex($type: 'ver');
     text-align: center;
-
     width: 146px;
     background-color: $primary-white-color;
     padding-left: 35px;
@@ -166,7 +165,6 @@
       width: 420px;
       padding: 0px;
     }
-
     &__p {
       color: $background-color;
       font-size: 22px;
@@ -177,6 +175,7 @@
       top: 10px;
       right: 75px;
       margin: 0px;
+      transition: all 0.2s linear;
     }
 
     &__li {
@@ -199,6 +198,7 @@
       height: 50px;
       background-color: $primary-white-color;
       padding: 9px 9px;
+      transition: all 0.2s linear;
       &:hover {
         background-color: $hover-color-two;
       }
@@ -215,11 +215,7 @@
     }
     &__svg {
       @include center-flex($type: 'all');
-      // @include center-flex($type: 'ver');
       margin: 0 auto;
-      // &:hover {
-      //   fill: $primary-white-color;
-      // }
     }
 
     &__button {
@@ -237,6 +233,7 @@
       top: 10px;
       right: 75px;
       margin: 0px;
+      transition: all 0.2s linear;
     }
     &__li:hover &__p-1 {
       color: $hover-color-one;

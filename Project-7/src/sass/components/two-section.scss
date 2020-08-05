@@ -193,9 +193,15 @@
     display: none;
   }
 }
+@media screen and (max-width: 1919px) {
+  .two-section__column {
+    display: none;
+  }
+}
 
 @media screen and (min-width: 1920px) {
   .two-section {
+    position: relative;
     &__a-1 {
       background-image: url('../images/blec/1a.jpg');
     }
