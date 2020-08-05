@@ -21,14 +21,15 @@
     margin-bottom: 18px;
     border: none;
   }
-  &__p {
+  &__pe {
     color: $hover-color-one;
     margin: 0px;
     margin-left: 8px;
-    width: 280px;
+    width: 272px;
     font-size: 16px;
     font-weight: 400;
     line-height: $line-height-one;
+    padding-bottom: 12px;
   }
   &__button {
     background-color: $secondory-accent-color;
@@ -81,60 +82,39 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  &__div-a {
-    display: none;
-  }
 
   &__a-1 {
     background-image: url('../images/blec-1/1a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-1:hover {
     background-image: url('../images/wait-1/1q.jpg');
   }
   &__a-2 {
     background-image: url('../images/blec-1/2a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-2:hover {
     background-image: url('../images/wait-1/2q.jpg');
   }
   &__a-3 {
     background-image: url('../images/blec-1/3a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-3:hover {
     background-image: url('../images/wait-1/3q.jpg');
   }
   &__a-4 {
     background-image: url('../images/blec-1/4a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-4:hover {
     background-image: url('../images/wait-1/4q.jpg');
   }
   &__a-5 {
     background-image: url('../images/blec-1/5a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-5:hover {
     background-image: url('../images/wait-1/5q.jpg');
   }
   &__a-6 {
     background-image: url('../images/blec-1/6a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
 
   &__a-6:hover {
@@ -142,18 +122,12 @@
   }
   &__a-7 {
     background-image: url('../images/blec-1/7a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-7:hover {
     background-image: url('../images/wait-1/7q.jpg');
   }
   &__a-8 {
     background-image: url('../images/blec-1/8a.jpg');
-    display: inline-block;
-    width: 130px;
-    height: 110px;
   }
   &__a-8:hover {
     background-image: url('../images/wait-1/8q.jpg');
@@ -191,20 +165,273 @@
   &__img {
     padding-top: 13px;
   }
+  &__dive-3 {
+    display: none;
+  }
+  &__a-9 {
+    display: none;
+  }
+  &__a-10 {
+    display: none;
+  }
+  &__a-11 {
+    display: none;
+  }
+  &__a-12 {
+    display: none;
+  }
+  &__a-13 {
+    display: none;
+  }
+  &__a-14 {
+    display: none;
+  }
+  &__a-15 {
+    display: none;
+  }
+  &__imge {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .two-section {
-  }
-}
+    &__a-1 {
+      background-image: url('../images/blec/1a.jpg');
+    }
+    &__a-1:hover {
+      background-image: url('../images/wait/1q.jpg');
+    }
+    &__a-2 {
+      background-image: url('../images/blec/2a.jpg');
+    }
+    &__a-2:hover {
+      background-image: url('../images/wait/2q.jpg');
+    }
+    &__a-3 {
+      background-image: url('../images/blec/3a.jpg');
+    }
+    &__a-3:hover {
+      background-image: url('../images/wait/3q.jpg');
+    }
+    &__a-4 {
+      background-image: url('/build/images/blec/4a.jpg');
+    }
+    &__a-4:hover {
+      background-image: url('../images/wait/4q.jpg');
+    }
+    &__a-5 {
+      background-image: url('../images/blec/5a.jpg');
+    }
+    &__a-5:hover {
+      background-image: url('../images/wait/5q.jpg');
+    }
+    &__a-6 {
+      background-image: url('../images/blec/6a.jpg');
+    }
 
-.bg_ {
-  background-color: rgba(29, 29, 27, 0.11);
-  box-shadow: 4px 6.928px 23.68px 8.32px rgba(29, 29, 27, 0.11);
-  position: absolute;
-  left: 855px;
-  top: 2188px;
-  width: 390px;
-  height: 340px;
-  z-index: 169;
+    &__a-6:hover {
+      background-image: url('../images/wait/6q.jpg');
+    }
+    &__a-7 {
+      background-image: url('../images/blec/7a.jpg');
+    }
+    &__a-7:hover {
+      background-image: url('../images/wait/7q.jpg');
+    }
+    &__a-8 {
+      background-image: url('../images/blec/8a.jpg');
+    }
+    &__a-8:hover {
+      background-image: url('../images/wait/8q.jpg');
+    }
+    &__a-9 {
+      background-image: url('../images/blec/9a.jpg');
+    }
+    &__a-9:hover {
+      background-image: url('../images/wait/9q.jpg');
+    }
+    &__a-10 {
+      background-image: url('../images/blec/10a.jpg');
+    }
+    &__a-10:hover {
+      background-image: url('../images/wait/10q.jpg');
+    }
+    &__a-11 {
+      background-image: url('../images/blec/11a.jpg');
+    }
+    &__a-11:hover {
+      background-image: url('../images/wait/11q.jpg');
+    }
+    &__a-12 {
+      background-image: url('../images/blec/12a.jpg');
+    }
+    &__a-12:hover {
+      background-image: url('../images/wait/12q.jpg');
+    }
+    &__a-13 {
+      background-image: url('../images/blec/13a.jpg');
+    }
+    &__a-13:hover {
+      background-image: url('../images/wait/13q.jpg');
+    }
+    &__a-14 {
+      background-image: url('../images/blec/14a.jpg');
+    }
+
+    &__a-14:hover {
+      background-image: url('../images/wait/14q.jpg');
+    }
+    &__a-15 {
+      background-image: url('../images/blec/15a.jpg');
+    }
+    &__a-15:hover {
+      background-image: url('../images/wait/15q.jpg');
+    }
+
+    &__a-9 {
+      display: inline-block;
+    }
+    &__a-10 {
+      display: inline-block;
+    }
+    &__a-11 {
+      display: inline-block;
+    }
+    &__a-12 {
+      display: inline-block;
+    }
+    &__a-13 {
+      display: inline-block;
+    }
+    &__a-14 {
+      display: inline-block;
+    }
+    &__a-15 {
+      display: inline-block;
+    }
+    &__div-a {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__wraper {
+      position: relative;
+      width: 1200px;
+      margin: auto;
+    }
+
+    &__list-div {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &__dive-3 {
+      margin: 0px;
+      display: flex;
+    }
+    &__dive {
+      margin: 0px;
+    }
+    &__title {
+      padding-top: 0px;
+      font-size: 75px;
+      margin-bottom: 44px;
+    }
+    &__spane {
+      width: 118px;
+      height: 6px;
+      margin-bottom: 46px;
+    }
+    &__dive-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 600px;
+      min-height: 330px;
+    }
+    &__dive {
+      width: 600px;
+      min-height: 330px;
+    }
+
+    &__button-left {
+      background-image: url('../images/arro\ left.png');
+      position: absolute;
+      z-index: 1;
+      top: 270px;
+      left: -130px;
+      width: 130px;
+      height: 130px;
+    }
+    &__button-rayd {
+      background-image: url('../images/arrow\ right.png');
+      top: 270px;
+      left: 1200px;
+      position: absolute;
+      z-index: 1;
+      width: 130px;
+      height: 130px;
+    }
+    &__buton {
+      background-image: url('/build/images/arrow\ down.png');
+      width: 130px;
+      height: 130px;
+    }
+    &__img {
+      display: none;
+    }
+    &__imge {
+      display: inline-block;
+      width: 143px;
+      height: 36px;
+      margin-bottom: 33px;
+      margin-left: 25px;
+      margin-top: 34px;
+    }
+    &__text-button {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+    &__pe {
+      width: 100%;
+      height: 216px;
+      padding: 0px 25px;
+      margin: 0px;
+      font-size: 22px;
+      line-height: $line-height-title;
+    }
+    &__big {
+      font-size: 19.5px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__wrapper {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 80px;
+        height: 66px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        z-index: 1;
+        top: -42px;
+        right: 22px;
+        background-image: url('../images/”-min.png');
+      }
+    }
+    &__imges {
+      display: inline-block;
+      width: 143px;
+      height: 36px;
+      margin-bottom: 39px;
+      margin-left: 25px;
+      margin-top: 34px;
+    }
+  }
 }

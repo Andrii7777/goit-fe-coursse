@@ -1,0 +1,12 @@
+.fail {
+  display: inline-block;
+  width: 130px;
+  height: 110px;
+}
+@media screen and (min-width: 1920px) {
+  .fail {
+    margin: 25px 37px;
+    width: 164px;
+    height: 130px;
+  }
+}
