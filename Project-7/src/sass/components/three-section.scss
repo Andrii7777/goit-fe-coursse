@@ -21,6 +21,7 @@
     line-height: $line-title;
   }
   &__pe {
+    display: block;
     margin: 0px;
     // font-family: $fon-Assistant;
     color: $primary-white-color;
@@ -31,6 +32,7 @@
   }
 
   &__texte {
+    display: block;
     // font-family: $fon-Assistant;
     font-weight: 700;
     font-size: 17px;
@@ -84,7 +86,7 @@
   }
   &__text {
     position: relative;
-    display: inline-block;
+    display: block;
     color: $primary-white-color;
     font-weight: 400;
     font-size: 16.2px;
@@ -128,5 +130,91 @@
 
 @media screen and (min-width: 1920px) {
   .three-section {
+    &__texte {
+      font-size: 22px;
+      width: 570px;
+      height: 100%;
+      line-height: $line-height-title;
+      margin-bottom: 36px;
+    }
+    &__dive {
+      width: 1200px;
+      margin: auto;
+    }
+    &__text-blec {
+      width: 276px;
+      height: 248px;
+      line-height: $line-height-title;
+      margin: 0px;
+      font-size: 22px;
+      padding: 0px 18px;
+    }
+    &__heading {
+      font-size: 75px;
+      padding-top: 196px;
+      margin-bottom: 40px;
+    }
+    &__pe {
+      position: relative;
+      font-size: 22px;
+      width: 885px;
+      height: 100%;
+      line-height: $line-height-title;
+      &::before {
+        position: absolute;
+        content: '';
+        width: 173px;
+        height: 456px;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        z-index: 3;
+        top: -382px;
+        left: 1073px;
+        background-image: url('../images/Object-L.png');
+      }
+    }
+    &__wrap {
+      margin: 0;
+      width: 896px;
+      @include space-between($type: 'all');
+      padding-bottom: 180px;
+    }
+    &__spane {
+      width: 116px;
+      height: 8px;
+      margin-bottom: 44px;
+    }
+    &__link {
+      width: 276px;
+      height: 248px;
+      font-size: 32px;
+      margin: 0px;
+      padding-left: 18px;
+    }
+    &__title {
+      font-size: 34px;
+      margin-bottom: 22px;
+    }
+    &__text {
+      font-size: 22px;
+      width: 910px;
+      height: 100%;
+      line-height: $line-height-title;
+      &::before {
+        width: 530px;
+        height: 917px;
+        top: -170px;
+        left: 1080px;
+        background-image: url('../images/-.png');
+      }
+
+      &::after {
+        width: 121px;
+        height: 86px;
+        top: -264px;
+        left: 924px;
+        background-image: url('../images/pipel.png');
+      }
+    }
   }
 }
