@@ -6,6 +6,124 @@
   &__heading {
     margin: 0px;
   }
+  &__heading {
+    font-weight: 400;
+    font-style: normal;
+    font-family: $fon-Impact;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 33px;
+    line-height: 1.1;
+    width: 100%;
+    padding-top: 22px;
+    margin-bottom: 14px;
+    color: $primary-white-color;
+    line-height: $line-title;
+  }
+  &__pe {
+    margin: 0px;
+    // font-family: $fon-Assistant;
+    color: $primary-white-color;
+    font-weight: 400;
+    font-size: 16.2px;
+    margin-bottom: 8px;
+    line-height: $line-height-one;
+  }
+
+  &__texte {
+    // font-family: $fon-Assistant;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0px;
+    margin-bottom: 17px;
+    line-height: $line-height-one;
+  }
+  &__link {
+    @include center-flex($type: 'ver');
+    padding-left: 8px;
+    // font-family: $fon-Assistant;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 16px;
+    width: 305px;
+    height: 90px;
+    text-transform: uppercase;
+    background-color: $primary-white-color;
+    &:last-child {
+      margin: 0px;
+    }
+  }
+  &__wraper {
+    margin: 0px;
+    padding-bottom: 18px;
+  }
+  &__text-blec {
+    @include center-flex($type: 'ver');
+    padding-left: 8px;
+    // font-family: $fon-Assistant;
+    margin: 0;
+    font-size: 16px;
+    width: 305px;
+    height: 90px;
+    margin-bottom: 12px;
+    color: $primary-white-color;
+    background-color: $hover-color;
+    line-height: $line-height-one;
+  }
+  &__title {
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: $fon-Impact;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 23px;
+    line-height: 1.1;
+    color: $primary-white-color;
+  }
+  &__text {
+    position: relative;
+    display: inline-block;
+    color: $primary-white-color;
+    font-weight: 400;
+    font-size: 16.2px;
+    width: 185px;
+    margin: 0px;
+    line-height: $line-height-one;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 139px;
+      height: 239px;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      z-index: 1;
+      top: -67px;
+      left: 190px;
+      background-image: url('../images/2-.png');
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      width: 32px;
+      height: 23px;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      z-index: 2;
+      top: -22px;
+      left: 203px;
+      background-image: url('../images/pipel-1.png');
+    }
+  }
+  &__spane {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: $hover-color;
+    margin-bottom: 14px;
+    border: none;
+  }
 }
 
 @media screen and (min-width: 1920px) {
