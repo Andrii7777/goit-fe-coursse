@@ -44,12 +44,14 @@
     padding-left: 8px;
     margin-bottom: 10px;
     color: $hover-color;
+    border: 0px;
   }
   &__inpute-two {
     height: 96px;
     width: 100%;
     margin-bottom: 10px;
     padding: 12px 8px;
+    border: 0px;
   }
   &__but {
     position: relative;
@@ -99,11 +101,89 @@
     line-height: $line-title-1;
   }
 }
-.foter {
-  display: none;
-}
 
 @media screen and (min-width: 1920px) {
   .four-section {
+    &__wrappers {
+      width: 1200px;
+      margin: auto;
+    }
+    &__svges {
+      width: 50px;
+      height: 50px;
+    }
+    &__title {
+      width: 460px;
+      font-size: 75px;
+      padding-top: 192px;
+      margin-bottom: 40px;
+    }
+    &__inpute {
+      width: 584px;
+      height: 48px;
+      margin-bottom: 34px;
+      font-size: 22px;
+      padding-left: 20px;
+    }
+    &__inpute-two {
+      width: 585px;
+      height: 135px;
+      margin-bottom: 35px;
+      padding: 20px 17px;
+      font-size: 22px;
+    }
+    &__description {
+      display: none;
+    }
+    &__but {
+      width: 155px;
+      height: 48px;
+      font-size: 22px;
+    }
+    &__wraper {
+      position: relative;
+      align-items: flex-start;
+      margin-right: 36px;
+      &::after {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        border-top: 3px dotted #413e34;
+        width: 260px;
+        top: 378px;
+        left: 619px;
+        z-index: 2;
+      }
+    }
+    &__spane {
+      width: 120px;
+      height: 6px;
+      margin-bottom: 44px;
+    }
+    &__wrape {
+      padding-bottom: 104px;
+    }
+    &__text {
+      font-size: 22px;
+      margin-bottom: 30px;
+      padding-top: 12px;
+
+      &::after {
+        width: 789px;
+        height: 500px;
+        top: 35px;
+        left: 148px;
+        background-image: url('../images/qui-22.png');
+      }
+    }
+    &__wrap {
+      display: flex;
+    }
+    &__wraper {
+      order: 1;
+    }
+    &__order {
+      order: 2;
+    }
   }
 }
