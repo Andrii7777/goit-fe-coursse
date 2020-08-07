@@ -6,6 +6,9 @@
   &__title {
     margin: 0px;
   }
+  &__wrapper {
+    @include center-flex($type: 'col');
+  }
 }
 
 @media screen and (min-width: 1920px) {
