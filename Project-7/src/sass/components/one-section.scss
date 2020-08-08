@@ -155,7 +155,7 @@
 }
 @media screen and (min-width: 1920px) {
   .one-section {
-    margin-bottom: 200px;
+    // margin-bottom: 200px;
     position: relative;
     &__wraper {
       position: absolute;
@@ -166,11 +166,12 @@
       padding: 0px;
     }
     &__p {
-      color: $background-color;
+      color: $background-color-two;
       font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
       position: absolute;
+      z-index: 5;
       display: inline-block;
       top: 10px;
       right: 75px;
@@ -184,6 +185,7 @@
 
     &__column {
       position: absolute;
+      z-index: 5;
       @include center-flex($type: 'col');
       padding: 0px;
       margin: 0px;
@@ -224,11 +226,12 @@
       font-size: 22px;
     }
     &__p-1 {
-      color: $background-color;
+      color: $background-color-two;
       font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
       position: absolute;
+      z-index: 5;
       display: inline-block;
       top: 10px;
       right: 75px;

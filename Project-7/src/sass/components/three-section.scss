@@ -129,7 +129,11 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .three-section__wraper {
+    padding-bottom: 0px;
+  }
   .three-section {
+    position: relative;
     &__texte {
       font-size: 22px;
       width: 570px;
