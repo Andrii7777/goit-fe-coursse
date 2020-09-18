@@ -245,6 +245,9 @@ html {
   display: flex;
   justify-content: center;
 }
+.footer {
+  background-color: #f7f7f7;
+}
 .footer__work {
   margin: 0px;
   font-size: 11px;
@@ -253,7 +256,6 @@ html {
   color: #3a4047;
 }
 .footer__div {
-  background-color: #f7f7f7;
   display: flex;
   align-items: center;
   text-align: center;
