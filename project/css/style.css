@@ -98,6 +98,94 @@ html {
   font-weight: 600;
   /* text-transform: uppercase; */
 }
+.one-section__wrapper {
+  position: relative;
+}
+.one-section__inner {
+  width: 85px;
+  height: 85px;
+  padding: 10px;
+  padding-top: 15px;
+  position: fixed;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  max-width: 120px;
+  border-radius: 50%;
+  background: #1ab0ce;
+  transform: scale(1);
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 13px;
+  padding-left: 15px;
+  animation: pulse 2s infinite;
+  cursor: pointer;
+  margin-left: 281px;
+  top: 316px;
+  color: #ffffff;
+  font-size: 6px;
+  text-align: center;
+}
+/* .one-section__svg {
+  background-image: url("../imeg/Logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 4;
+} */
+.one-section__inner:hover {
+  animation: pulse 2s infinite;
+}
+.one-section__inner::after {
+  background-image: url("../imeg/svg/tel.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  content: "";
+  position: absolute;
+  top: 7px;
+  z-index: 4;
+}
+.one-section__inner:hover::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #1ab0ce;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  animation: one-section__inner 1s linear infinite;
+  opacity: 0;
+}
+/* .one-section__inner:hover::after {
+  animation-delay: 0.5s;
+} */
+@keyframes one-section__inner {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
 .one-section__text-one {
   color: #ffffff;
   font-size: 14px;
