@@ -61,7 +61,7 @@ html {
   text-decoration: none;
   color: #3a4047;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
 }
 .site-navigation__input {
@@ -100,7 +100,7 @@ html {
 }
 .one-section__text-one {
   color: #ffffff;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
   margin: 0px;
@@ -110,7 +110,7 @@ html {
   background: #1ab0ce;
   color: #ffffff;
   border: none;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
   margin: 0px;
   margin-bottom: 43px;
@@ -122,14 +122,14 @@ html {
 
 .two-section__heading-h1 {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
 }
 .two-section__li {
   display: flex;
   justify-content: flex-start;
   list-style: none;
-  padding: 14px 76px;
+  padding: 14px 65px;
   border: 1px solid #dce1e6;
   margin-bottom: 2px;
 }
@@ -141,11 +141,12 @@ html {
   margin: 0px;
 }
 .two-section__heading {
-  font-size: 9px;
+  font-size: 11px;
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 6px;
   font-weight: 600;
+  width: 150px;
 }
 .two-section__img {
   margin-right: 14px;
@@ -161,7 +162,7 @@ html {
 .two-section__snare {
   color: #3a4047;
   margin: 0px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.2;
   margin-bottom: 4px;
 }
@@ -170,24 +171,24 @@ html {
 }
 .two-section__h2 {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
 }
 .two-section__h3 {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
 }
 .two-section__paragraph {
   color: #3a4047;
   margin: 0px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.2;
 }
 .two-section__text {
   color: #3a4047;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2;
   margin-bottom: 10px;
   text-align: center;
@@ -222,13 +223,13 @@ html {
 .two-section__p {
   padding: 8px 28px 28px 28px;
   margin: 0px;
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.2;
 }
 .two-section__date {
   padding-top: 28px;
   margin: 0px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.2;
 }
 .two-section__button {
@@ -237,7 +238,7 @@ html {
   background-color: transparent;
   border: 1px solid #1ab0ce;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
   margin: 0px;
   padding: 3px 6px;
@@ -253,7 +254,7 @@ html {
 }
 .footer__work {
   margin: 0px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.2;
   margin-bottom: 10px;
   color: #3a4047;
@@ -266,7 +267,7 @@ html {
 }
 .footer__text {
   margin: 0px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.2;
   margin-bottom: 10px;
   color: #3a4047;
@@ -277,7 +278,7 @@ html {
 }
 .footer__rights {
   margin: 0px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
   margin-bottom: 10px;
   color: #3a4047;
@@ -285,14 +286,14 @@ html {
 .footer__a {
   color: #3a4047;
   margin: 0px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
   margin-bottom: 10px;
 }
 .footer__contact {
   color: #3a4047;
   margin: 0px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
   margin-bottom: 10px;
   padding-top: 10px;
@@ -303,7 +304,7 @@ html {
 .footer__crib {
   color: #3a4047;
   margin: 0px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.2;
 }
 .footer__dive {
