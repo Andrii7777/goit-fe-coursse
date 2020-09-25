@@ -78,7 +78,7 @@ html {
   padding-top: 5px;
 }
 .one-section {
-  background-image: url("../imeg/Rectangle.png");
+  background-image: url("../imeg/Rectanglle.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -93,7 +93,8 @@ html {
   color: #ffffff;
   text-align: center;
   margin: 0px;
-  padding-top: 12px;
+  padding-top: 40px;
+  margin-bottom: 10px;
   font-weight: 600;
   /* text-transform: uppercase; */
 }
@@ -102,6 +103,8 @@ html {
   font-size: 10px;
   line-height: 1.2;
   font-weight: 400;
+  margin: 0px;
+  margin-bottom: 10px;
 }
 .one-section__button {
   background: #1ab0ce;
@@ -110,7 +113,7 @@ html {
   font-size: 10px;
   line-height: 1.2;
   margin: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 0px;
   width: 80px;
   height: 20px;
