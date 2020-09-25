@@ -75,7 +75,7 @@ html {
 .site-navigation__a:hover {
   color: #1ab0ce;
   box-shadow: 0px -1px 0px #1ab0ce;
-  padding-top: 5px;
+  padding-top: 2px;
 }
 .one-section {
   background-image: url("../imeg/Rectanglle.png");
@@ -88,7 +88,7 @@ html {
   margin: 0 auto;
 }
 .one-section__text {
-  font-size: 15.5px;
+  font-size: 15px;
   line-height: 1.2;
   color: #ffffff;
   text-align: center;
@@ -221,9 +221,9 @@ html {
 }
 
 .two-section__p {
-  padding: 8px 28px 28px 28px;
+  padding: 8px 20px 28px 28px;
   margin: 0px;
-  font-size: 13.5px;
+  font-size: 14px;
   line-height: 1.2;
 }
 .two-section__date {
