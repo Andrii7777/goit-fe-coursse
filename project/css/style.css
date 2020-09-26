@@ -114,8 +114,8 @@ html {
   padding-top: 15px;
   position: fixed;
   z-index: 1;
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   max-width: 120px;
   border-radius: 50%;
   background: #1ab0ce;
@@ -150,7 +150,7 @@ html {
   margin: 0 auto;
   content: "";
   position: absolute;
-  top: 6px;
+  top: 10px;
   z-index: 4;
 }
 .one-section__inner::before {
