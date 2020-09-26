@@ -114,8 +114,8 @@ html {
   padding-top: 15px;
   position: fixed;
   z-index: 1;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   max-width: 120px;
   border-radius: 50%;
   background: #1ab0ce;
@@ -129,10 +129,10 @@ html {
   padding-left: 15px;
   animation: pulse 2s infinite;
   cursor: pointer;
-  margin-left: 272px;
+  margin-left: 260px;
   top: 316px;
   color: #ffffff;
-  font-size: 7px;
+  font-size: 8px;
   text-align: center;
 }
 
@@ -145,8 +145,8 @@ html {
   background-size: cover;
   background-position: center;
   text-align: center;
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   margin: 0 auto;
   content: "";
   position: absolute;
