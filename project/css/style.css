@@ -461,6 +461,11 @@ html {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    padding-top: 12px;
+  }
+  .page-heder__wrapper {
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .page-heder__li {
     list-style: none;
@@ -491,11 +496,11 @@ html {
   .page-heder__button {
     text-decoration: none;
     list-style: none;
-
-    padding: 2px 6px;
+    padding: 0px 4px;
     background: #ededed;
     border-radius: 50%;
     font-weight: 600;
+    color: black;
   }
   .page-heder__tel {
     text-decoration: none;
@@ -506,16 +511,44 @@ html {
   }
   .page-heder__lis {
     list-style: none;
-    font-size: 13px;
-    line-height: 1.2;
     text-align: center;
     width: 254px;
   }
   .page-heder__cabinet {
-    text-decoration-line: underline;
+    margin: 0px;
+    color: #3a4047;
+  }
+  .page-heder__li-div {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .page-heder__cabinet-svg {
+    position: absolute;
+    top: 0px;
+    right: 110px;
+  }
+  .page-heder__paragraf {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .page-heder__website {
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 0px;
+    margin-bottom: 15px;
   }
   .page-heder__graphek {
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 0px;
     font-weight: 600;
+  }
+  .page-heder__website-a {
+    color: #3a4047;
   }
   .site-navigation {
     display: flex;
@@ -548,6 +581,7 @@ html {
     height: 30px;
   }
   .site-navigation {
+    position: relative;
     margin-bottom: 14px;
   }
   .site-navigation__a:hover {
@@ -555,12 +589,41 @@ html {
     transition-duration: 200ms;
     transition: color 200ms ease-in;
     transition-property: all;
-    padding-top: 10px;
+    padding-top: 8px;
     box-shadow: 0px -1px 0px #1ab0ce;
   }
   .site-navigation__a {
     font-size: 13px;
+    margin-right: 7px;
   }
+  .site-navigation__line {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: 2px;
+    margin: 0px;
+    top: 79px;
+  }
+  .site-navigation__span::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 50%;
+    background-color: #e8edf2;
+    position: absolute;
+    top: 5px;
+    right: -2px;
+  }
+  .site-navigation__span {
+    position: relative;
+  }
+  .site-navigation__span {
+    /* border: 0.5px solid #e8edf2;
+    transform: rotate(90deg);
+    color: #e8edf2; */
+  }
+
   .site-navigation__svg {
     padding-top: 11px;
     width: 14px;
@@ -581,8 +644,57 @@ html {
     height: 47.7px;
     width: 163.5px;
   }
+  .page-heder__listet {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  .page-heder__al {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .page-heder__listet:last-child {
+    margin-bottom: 0px;
+  }
+  .page-heder__ul {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 121px;
+    height: 67px;
+    background: #ffffff;
+    box-shadow: -1px -5px 21px rgba(0, 0, 0.05, 0.05);
+    padding: 25px 15px;
+    margin: 0px;
+    top: 30px;
+    right: 0px;
+    z-index: 10;
+  }
+
+  /* .page-heder__ul {
+    display: none;
+  } */
+  .page-heder__dive {
+    position: relative;
+  }
+  .page-heder__dive:hover > .page-heder__ul {
+    display: inline-block;
+  }
+  .page-heder__imge {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+  }
   .page-heder__lise {
-    margin-top: 28px;
+    margin-top: 15px;
     list-style: none;
   }
   .page-heder__li-svg {
@@ -594,7 +706,7 @@ html {
     height: 45px;
     margin-left: 602px;
     font-size: 9px;
-    top: 300px;
+    top: 320px;
     line-height: 1.4;
   }
   .one-section__inner::after {
