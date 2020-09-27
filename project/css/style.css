@@ -10,11 +10,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+/* @media screen and (max-width: 767px) { */
 .container {
+  overflow: hidden;
   max-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }
+
 .page-heder__wrapper {
   display: flex;
   justify-content: space-between;
@@ -53,10 +56,7 @@ html {
   padding: 0;
   list-style: none;
 }
-/* .site-navigation__item:hover {
-  color: #1ab0ce;
-  box-shadow: 0px -1px 0px #1ab0ce;
-} */
+
 .site-navigation__a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
@@ -70,15 +70,34 @@ html {
   text-align: center;
 }
 .site-navigation__svg {
+  fill: #3a4047;
   width: 13px;
   height: 13px;
+  cursor: pointer;
+}
+.site-navigation__svg:hover {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transition: color 200ms ease-in;
+  transition-property: all;
+  fill: #1ab0ce;
+  color: #1ab0ce;
+  /* box-shadow: 0px -1px 0px #1ab0ce; */
+  padding-top: 3px;
 }
 
 .site-navigation__a:hover {
+  transition: color 200ms ease-in;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
   color: #1ab0ce;
-  box-shadow: 0px -1px 0px #1ab0ce;
-  padding-top: 2px;
+  /* box-shadow: 0px -1px 0px #1ab0ce; */
+  padding-top: 3px;
 }
+.site-navigation__svg {
+  padding-top: 3px;
+}
+
 .one-section {
   background-image: url("../imeg/Rectanglle.png");
   background-repeat: no-repeat;
@@ -184,7 +203,7 @@ html {
 .one-section__text-one {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.2;
   font-weight: 100;
   margin: 0px;
@@ -196,13 +215,13 @@ html {
   color: #ffffff;
   border: none;
   font-weight: 100;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.2;
   margin: 0px;
   margin-bottom: 43px;
   padding: 0px;
-  width: 90px;
-  height: 20px;
+  width: 100px;
+  height: 24px;
   cursor: pointer;
 }
 
@@ -292,12 +311,18 @@ html {
 }
 
 .two-section__list:hover {
-  /* text-decoration-line: underline;
-  color: #1ab0ce; */
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transition: color 200ms ease-in;
+  transition-property: all;
   cursor: pointer;
   box-shadow: 0px -1px 0px #1ab0ce, 0px 14px 24px rgba(0, 0, 0, 0.05);
 }
 .two-section__p:hover {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transition: color 200ms ease-in;
+  transition-property: all;
   text-decoration-line: underline;
   color: #1ab0ce;
 }
@@ -337,7 +362,7 @@ html {
   font-size: 12px;
   line-height: 1.2;
   margin: 0px;
-  padding: 3px 6px;
+  padding: 6px 10px;
   margin-bottom: 20px;
 }
 .two-section__dive {
@@ -417,3 +442,236 @@ html {
   align-content: center;
   margin-bottom: 20px;
 }
+.site-navigation__but {
+  background-color: transparent;
+  border: thistle;
+}
+.page-heder__list {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    max-width: 688px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  .page-heder__list {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .page-heder__li {
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+    width: 120px;
+  }
+  .page-heder__dive {
+    position: relative;
+  }
+  .page-heder__svge {
+    position: absolute;
+    right: 1px;
+    width: 18px;
+    height: 18px;
+    right: 123px;
+  }
+  .page-heder__svg {
+    position: absolute;
+    right: 150px;
+    width: 18px;
+    height: 18px;
+  }
+  .page-heder__a {
+    display: none;
+  }
+  .page-heder__button {
+    text-decoration: none;
+    list-style: none;
+
+    padding: 2px 6px;
+    background: #ededed;
+    border-radius: 50%;
+    font-weight: 600;
+  }
+  .page-heder__tel {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .page-heder__lis {
+    list-style: none;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+    width: 254px;
+  }
+  .page-heder__cabinet {
+    text-decoration-line: underline;
+  }
+  .page-heder__graphek {
+    font-weight: 600;
+  }
+  .site-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .one-section {
+    background-image: url("../imeg/Rectangle688.png");
+  }
+  .site-navigation__svg:hover {
+    stroke: #1ab0ce;
+    fill: #1ab0ce;
+  }
+  .one-section__text {
+    font-size: 26px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+  }
+  .one-section__text-one {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .one-section__button {
+    font-size: 13px;
+
+    margin-bottom: 50px;
+
+    width: 130px;
+    height: 30px;
+  }
+  .site-navigation {
+    margin-bottom: 14px;
+  }
+  .site-navigation__a:hover {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    transition: color 200ms ease-in;
+    transition-property: all;
+    padding-top: 10px;
+    box-shadow: 0px -1px 0px #1ab0ce;
+  }
+  .site-navigation__a {
+    font-size: 13px;
+  }
+  .site-navigation__svg {
+    padding-top: 11px;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .site-navigation__svg:hover {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    transition: color 200ms ease-in;
+    transition-property: all;
+    padding-top: 11px;
+    box-shadow: 0px -1px 0px #1ab0ce;
+  }
+  .page-heder__img,
+  .footer__img {
+    height: 47.7px;
+    width: 163.5px;
+  }
+  .page-heder__lise {
+    margin-top: 28px;
+    list-style: none;
+  }
+  .page-heder__li-svg {
+    width: 30px;
+    height: 30px;
+  }
+  .one-section__inner {
+    width: 45px;
+    height: 45px;
+    margin-left: 602px;
+    font-size: 9px;
+    top: 300px;
+    line-height: 1.4;
+  }
+  .one-section__inner::after {
+    width: 20px;
+    height: 20px;
+  }
+  .two-section__heading-h1,
+  .two-section__h2,
+  .two-section__h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .two-section__text {
+    font-size: 18px;
+
+    margin-bottom: 14px;
+  }
+  .two-section__paragraph {
+    font-size: 14px;
+  }
+  .two-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .two-section__li {
+    padding: 20px 7px;
+    margin-bottom: 0px;
+  }
+  .two-section__img {
+    margin-right: 16px;
+
+    height: 30px;
+    width: 30px;
+  }
+  .two-section__heading {
+    font-size: 12px;
+
+    width: 156px;
+  }
+  .two-section__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .two-section__snare {
+    font-size: 13.5px;
+  }
+  .two-section__p {
+    padding: 12px 0px 34px 0px;
+
+    font-size: 13.5px;
+
+    letter-spacing: -0.5px;
+  }
+  .two-section__list:first-child {
+    margin-left: 12px;
+  }
+  .two-section__list:last-child {
+    margin-right: 12px;
+  }
+  .two-section__button {
+    font-size: 13px;
+    padding: 10px 14px;
+    margin-bottom: 30px;
+  }
+}
+
+/* <form
+class="site-navigation__input"
+action="/search/"
+id="cse-search-box"
+>
+<input
+  class="site-navigation__svg"
+  type="image"
+  src="./imeg/svg/poshuk.svg"
+  alt="Найти"
+  class="find"
+/>
+</form> */
