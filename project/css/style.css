@@ -514,23 +514,26 @@ html {
     /* width: 120px; */
   }
   .page-heder__dive {
+    display: flex;
     position: relative;
+    align-items: center;
+
+    height: 10px;
+    text-align: center;
   }
+
   .page-heder__svge {
-    position: absolute;
-    content: "";
+    cursor: pointer;
+    margin-right: 5px;
     right: 1px;
     width: 16px;
     height: 16px;
-    right: 118px;
   }
   .page-heder__svg {
-    position: absolute;
-    content: "";
-    right: 141px;
+    cursor: pointer;
     width: 16px;
     height: 16px;
-    margin-right: 0px;
+    margin-right: 5px;
   }
   .page-heder__a {
     display: none;
@@ -561,14 +564,14 @@ html {
     color: #3a4047;
   }
   .page-heder__li-div {
-    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
     cursor: pointer;
   }
 
   .page-heder__cabinet-svg {
-    position: absolute;
-    top: 0px;
-    right: 98px;
+    margin-right: 4px;
   }
   .page-heder__paragraf {
     margin: 0px;
