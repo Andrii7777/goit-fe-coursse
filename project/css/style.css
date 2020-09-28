@@ -502,6 +502,12 @@ html {
     justify-content: space-between;
     padding-top: 12px;
   }
+  .page-heder__list > .lui {
+    width: 118px;
+  }
+  .page-heder__list > .lt {
+    width: 156px;
+  }
   .page-heder__wrapper {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -511,7 +517,7 @@ html {
     font-size: 13px;
     line-height: 1.2;
     text-align: center;
-    /* width: 120px; */
+    width: 120px;
   }
   .page-heder__dive {
     display: flex;
@@ -557,7 +563,7 @@ html {
   .page-heder__lis {
     list-style: none;
     text-align: center;
-    width: 253px;
+    width: 227px;
   }
   .page-heder__cabinet {
     margin: 0px;
