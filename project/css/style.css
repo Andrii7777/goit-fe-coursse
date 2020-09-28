@@ -552,7 +552,7 @@ html {
   .page-heder__lis {
     list-style: none;
     text-align: center;
-    width: 254px;
+    width: 244px;
   }
   .page-heder__cabinet {
     margin: 0px;
@@ -571,7 +571,7 @@ html {
   .page-heder__paragraf {
     margin: 0px;
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 12.5px;
     line-height: 1.2;
   }
 
@@ -622,7 +622,7 @@ html {
   }
   .site-navigation {
     position: relative;
-    margin-bottom: 14px;
+    margin-bottom: 4px;
   }
   .site-navigation__a:hover {
     transition-timing-function: linear;
@@ -643,7 +643,8 @@ html {
     width: 100%;
     height: 2px;
     margin: 0px;
-    top: 79px;
+    /* top: 79px; */
+    bottom: 487px;
     right: 0px;
   }
 
@@ -750,12 +751,12 @@ html {
     margin-right: 5px;
   }
   .page-heder__lise {
-    margin-top: 15px;
+    margin-top: 20px;
     list-style: none;
   }
   .page-heder__li-svg {
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
   }
   .one-section__inner {
     width: 45px;
