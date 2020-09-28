@@ -494,7 +494,7 @@ html {
     margin: 0 auto;
   }
   .page-heder__list {
-    min-width: 543px;
+    width: 543px;
     padding: 0px;
     margin: 0px;
     text-decoration: none;
@@ -502,12 +502,7 @@ html {
     justify-content: space-between;
     padding-top: 12px;
   }
-  /* .page-heder__list > .lui {
-    width: 116px;
-  }
-  .page-heder__list > .lt {
-    width: 156px;
-  } */
+
   .page-heder__wrapper {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -557,45 +552,49 @@ html {
     list-style: none;
     color: #000;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
   }
   .page-heder__lis {
     list-style: none;
     text-align: center;
-    width: 251px;
+    width: 300px;
   }
   .page-heder__cabinet {
     margin: 0px;
     color: #3a4047;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 3px;
   }
   .page-heder__li-div {
     width: 118px;
-    display: flex;
+    display: none;
     align-items: center;
     text-align: center;
     cursor: pointer;
   }
 
   .page-heder__cabinet-svg {
-    margin-right: 3px;
-    width: 13px;
-    height: 13px;
+    margin-right: 6px;
+    width: 15px;
+    height: 15px;
   }
   .page-heder__paragraf {
     margin: 0px;
     margin-bottom: 10px;
-    font-size: 12.5px;
+    font-size: 14px;
     line-height: 1.2;
   }
 
   .page-heder__website {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.2;
     margin: 0px;
-    margin-bottom: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
   .page-heder__graphek {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.2;
     margin: 0px;
     font-weight: 600;
@@ -697,10 +696,8 @@ html {
   }
   .page-heder__img,
   .footer__img {
-    /* height: 47.7px;
-    width: 163.5px; */
-    height: 41.7px;
-    width: 145.5px;
+    height: 47.7px;
+    width: 163.5px;
   }
   .page-heder__listet {
     display: flex;
@@ -773,8 +770,10 @@ html {
     list-style: none;
   }
   .page-heder__li-svg {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
+    margin-top: 13px;
+    cursor: pointer;
   }
   .one-section__inner {
     width: 45px;
