@@ -502,12 +502,12 @@ html {
     justify-content: space-between;
     padding-top: 12px;
   }
-  .page-heder__list > .lui {
+  /* .page-heder__list > .lui {
     width: 116px;
   }
   .page-heder__list > .lt {
-    /* width: 156px; */
-  }
+    width: 156px;
+  } */
   .page-heder__wrapper {
     margin-top: 5px;
     margin-bottom: 10px;
