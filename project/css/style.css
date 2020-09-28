@@ -518,6 +518,7 @@ html {
   }
   .page-heder__svge {
     position: absolute;
+    content: "";
     right: 1px;
     width: 16px;
     height: 16px;
@@ -525,6 +526,7 @@ html {
   }
   .page-heder__svg {
     position: absolute;
+    content: "";
     right: 141px;
     width: 16px;
     height: 16px;
