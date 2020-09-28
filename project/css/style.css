@@ -430,6 +430,7 @@ html {
   list-style: none;
   text-transform: none;
   font-weight: 600;
+  font-size: 14px;
 }
 .footer__wrapper {
   margin-bottom: 4px;
