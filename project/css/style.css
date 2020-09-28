@@ -564,14 +564,14 @@ html {
   .page-heder__lis {
     list-style: none;
     text-align: center;
-    width: 300px;
+    width: 310px;
   }
   .page-heder__cabinet {
     margin: 0px;
     color: #3a4047;
     font-size: 14px;
     line-height: 1.2;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
   .page-heder__li-div {
     width: 118px;
@@ -597,8 +597,7 @@ html {
     font-size: 14px;
     line-height: 1.2;
     margin: 0px;
-
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .page-heder__graphek {
     font-size: 14px;
