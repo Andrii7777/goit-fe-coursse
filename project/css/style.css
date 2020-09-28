@@ -515,25 +515,31 @@ html {
     /* width: 120px; */
   }
   .page-heder__dive {
-    /* display: flex;
-    position: relative; */
-    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    text-align: center;
 
     height: 10px;
   }
 
   .page-heder__svge {
     cursor: pointer;
-    margin-right: 1px;
+    margin-right: 4px;
     right: 1px;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
+  }
+  .page-heder__di {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
   }
   .page-heder__svg {
     cursor: pointer;
-    width: 14px;
-    height: 14px;
-    margin-right: 1px;
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
   }
   .page-heder__a {
     display: none;
@@ -590,8 +596,8 @@ html {
     font-size: 14px;
     line-height: 1.2;
     margin: 0px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+
+    margin-bottom: 10px;
   }
   .page-heder__graphek {
     font-size: 14px;
@@ -729,7 +735,7 @@ html {
     box-shadow: -1px -5px 21px rgba(0, 0, 0.1, 0.1);
     padding: 25px 15px;
     margin: 0px;
-    top: 25px;
+    top: 19px;
     right: 0px;
     z-index: 100;
     margin-top: 0px;
