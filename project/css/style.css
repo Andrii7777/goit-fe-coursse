@@ -552,7 +552,7 @@ html {
   .page-heder__lis {
     list-style: none;
     text-align: center;
-    width: 244px;
+    width: 246px;
   }
   .page-heder__cabinet {
     margin: 0px;
@@ -713,7 +713,7 @@ html {
     position: absolute;
     align-items: center;
     text-align: center;
-    width: 121px;
+    width: 125px;
     height: 67px;
     background: #ffffff;
     box-shadow: -1px -5px 21px rgba(0, 0, 0.1, 0.1);
