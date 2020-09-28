@@ -453,9 +453,30 @@ html {
   background-color: transparent;
   border: thistle;
 }
+.foote-heder__button {
+  text-decoration: none;
+  list-style: none;
+  padding: 0px 4px;
+  background: #ededed;
+  border-radius: 50%;
+  font-weight: 600;
+  color: black;
+}
+.footer-heder__svge {
+  height: 17px;
+  width: 17px;
+  top: 2px;
+  left: -21px;
+  position: absolute;
+  list-style: none;
+  text-decoration: none;
+}
 
 .page-heder__list {
   display: none;
+}
+.footer__wrapper {
+  position: relative;
 }
 .footer__list,
 .footer__li {
@@ -473,6 +494,7 @@ html {
     margin: 0 auto;
   }
   .page-heder__list {
+    width: 100%;
     padding: 0px;
     margin: 0px;
     text-decoration: none;
@@ -656,8 +678,10 @@ html {
   }
   .page-heder__img,
   .footer__img {
-    height: 47.7px;
-    width: 163.5px;
+    /* height: 47.7px;
+    width: 163.5px; */
+    height: 43.7px;
+    width: 147.5px;
   }
   .page-heder__listet {
     display: flex;
@@ -793,12 +817,7 @@ html {
 
     letter-spacing: -0.5px;
   }
-  .two-section__list:first-child {
-    margin-left: 12px;
-  }
-  .two-section__list:last-child {
-    margin-right: 12px;
-  }
+
   .two-section__button {
     font-size: 13px;
     padding: 10px 14px;
@@ -857,27 +876,7 @@ html {
     padding-top: 10px;
     padding-bottom: 5px;
   }
-  .footer__wrapper {
-    position: relative;
-  }
-  .footer-heder__svge {
-    height: 17px;
-    width: 17px;
-    top: 2px;
-    left: -21px;
-    position: absolute;
-    list-style: none;
-    text-decoration: none;
-  }
-  .foote-heder__button {
-    text-decoration: none;
-    list-style: none;
-    padding: 0px 4px;
-    background: #ededed;
-    border-radius: 50%;
-    font-weight: 600;
-    color: black;
-  }
+
   .imeges {
     height: 43.7px;
     width: 147.5px;
