@@ -81,7 +81,6 @@ html {
   transition-property: all;
   fill: #1ab0ce;
   color: #1ab0ce;
-  /* box-shadow: 0px -1px 0px #1ab0ce; */
   padding-top: 3px;
 }
 
@@ -90,7 +89,6 @@ html {
   transition-timing-function: linear;
   transition-duration: 200ms;
   color: #1ab0ce;
-  /* box-shadow: 0px -1px 0px #1ab0ce; */
   padding-top: 3px;
 }
 .site-navigation__svg {
@@ -118,8 +116,6 @@ html {
   padding-top: 40px;
   margin-bottom: 10px;
   font-weight: 600;
-
-  /* text-transform: uppercase; */
 }
 .one-section__wrapper {
   position: relative;
@@ -195,9 +191,6 @@ html {
   animation: one-section__inner 1s linear infinite;
   opacity: 0;
 }
-/* .one-section__inner:hover::after {
-  animation-delay: 0.5s;
-} */
 @keyframes one-section__inner {
   0% {
     transform: scale(0.5);
@@ -342,7 +335,6 @@ html {
 }
 
 .two-section__list {
-  /* padding: 28px 28px; */
   list-style: none;
 }
 
@@ -437,7 +429,6 @@ html {
   font-size: 12px;
   line-height: 1.2;
   margin-bottom: 10px;
-  /* padding-top: 10px; */
 }
 .footer__tel {
   color: #000;
@@ -445,6 +436,7 @@ html {
   text-transform: none;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
 }
 .footer__wrapper {
   margin-bottom: 4px;
@@ -481,7 +473,7 @@ html {
   height: 17px;
   width: 17px;
   top: 2px;
-  left: -21px;
+  left: -19px;
   position: absolute;
   list-style: none;
   text-decoration: none;
@@ -490,7 +482,7 @@ html {
   height: 17px;
   width: 17px;
   top: 2px;
-  left: -40px;
+  left: -38px;
   position: absolute;
   list-style: none;
   text-decoration: none;
@@ -537,13 +529,11 @@ html {
     font-size: 13px;
     line-height: 1.2;
     text-align: right;
-    /* width: 120px; */
   }
   .page-heder__dive {
     display: flex;
     align-items: center;
     text-align: center;
-
     height: 10px;
   }
 
@@ -693,7 +683,6 @@ html {
     height: 2px;
     margin: 0px;
     top: -3px;
-    /* bottom: 487px; */
     right: 0px;
     z-index: -1;
   }
@@ -829,7 +818,6 @@ html {
   }
   .two-section__text {
     font-size: 18px;
-
     margin-bottom: 14px;
   }
   .two-section__paragraph {
@@ -845,13 +833,11 @@ html {
   }
   .two-section__img {
     margin-right: 16px;
-
     height: 30px;
     width: 30px;
   }
   .two-section__heading {
     font-size: 12px;
-
     width: 156px;
   }
   .two-section__wrap {
@@ -863,9 +849,7 @@ html {
   }
   .two-section__p {
     padding: 12px 0px 34px 0px;
-
     font-size: 13.5px;
-
     letter-spacing: -0.5px;
   }
 
@@ -881,7 +865,6 @@ html {
     justify-content: space-between;
   }
   .footer__li {
-    /* width: 154px; */
     display: flex;
     align-items: flex-start;
   }
@@ -957,7 +940,6 @@ html {
     margin: 0px;
     text-decoration: none;
     display: flex;
-    /* justify-content: space-between; */
   }
 
   .page-heder__wrapper {
@@ -969,13 +951,11 @@ html {
     font-size: 13px;
     line-height: 1.2;
     text-align: right;
-    /* width: 120px; */
   }
   .page-heder__dive {
     display: flex;
     align-items: center;
     text-align: center;
-
     height: 10px;
   }
   .page-heder__img,
@@ -994,9 +974,6 @@ html {
   }
   .page-heder__di {
     display: none;
-    /* align-items: center;
-    text-align: center;
-    justify-content: flex-end; */
   }
   .page-heder__svg {
     cursor: pointer;
@@ -1106,12 +1083,6 @@ html {
     width: 200px;
     height: 48px;
   }
-  /* .one-section__spane {
-    border: 2px solid #ffffff;
-    width: 120px;
-    margin: 0 auto;
-    transform: rotate(90deg);
-  } */
   .site-navigation {
     position: relative;
     margin-bottom: 0px;
@@ -1123,6 +1094,7 @@ html {
     transition-property: all;
     padding-top: 8px;
     box-shadow: 0px -1px 0px #1ab0ce;
+    width: 120%;
   }
   .site-navigation__a {
     font-size: 16px;
@@ -1140,7 +1112,6 @@ html {
     height: 2px;
     margin: 0px;
     top: -4px;
-    /* bottom: 487px; */
     right: 0px;
     z-index: -1;
   }
@@ -1253,11 +1224,11 @@ html {
     cursor: pointer;
   }
   .one-section__inner {
-    width: 80px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     margin-left: 1220px;
     font-size: 13px;
-    top: 462px;
+    top: 464px;
     line-height: 1.4;
   }
   .one-section__inner::after {
@@ -1348,9 +1319,7 @@ html {
   }
   .two-section__p {
     padding: 14px 22px 60px 22px;
-
     font-size: 14px;
-
     letter-spacing: normal;
   }
 
