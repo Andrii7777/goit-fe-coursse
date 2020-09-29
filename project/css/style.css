@@ -1258,7 +1258,7 @@ html {
     height: 75px;
     margin-left: 1220px;
     font-size: 13px;
-    top: 447px;
+    top: 462px;
     line-height: 1.4;
   }
   .one-section__inner::after {
@@ -1277,6 +1277,14 @@ html {
   .two-section__divse {
     margin-bottom: 20px;
   }
+  .two-section__list {
+    width: 398px;
+    height: 170px;
+  }
+  .two-section__date {
+    padding-top: 29px;
+    font-size: 14px;
+  }
   .divs {
     display: flex;
     justify-content: space-between;
@@ -1293,13 +1301,16 @@ html {
     margin-bottom: 13px;
     margin-top: 0px;
   }
+  .two-section__dive {
+    padding-top: 51px;
+  }
   .two-section__text {
-    font-size: 18px;
-
-    margin-bottom: 14px;
+    font-size: 24px;
+    margin-bottom: 34px;
   }
   .two-section__paragraph {
     font-size: 14px;
+    margin-bottom: 46px;
   }
   .two-section__wrapper {
     display: flex;
@@ -1337,17 +1348,17 @@ html {
     margin-bottom: 23px;
   }
   .two-section__p {
-    padding: 12px 0px 34px 0px;
+    padding: 14px 22px 60px 22px;
 
-    font-size: 13.5px;
+    font-size: 14px;
 
-    letter-spacing: -0.5px;
+    letter-spacing: normal;
   }
 
   .two-section__button {
-    font-size: 13px;
-    padding: 10px 14px;
-    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 12px 41px;
+    margin-bottom: 58px;
   }
   .footer__list {
     width: 100%;
