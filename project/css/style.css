@@ -1162,7 +1162,7 @@ html {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
   }
   .page-heder__listet:last-child {
     margin-bottom: 0px;
@@ -1173,14 +1173,14 @@ html {
     position: absolute;
     align-items: center;
     text-align: center;
-    width: 130px;
-    height: 67px;
+    width: 142px;
+    height: 96px;
     background: #ffffff;
     box-shadow: -1px -5px 21px rgba(0, 0, 0.1, 0.1);
-    padding: 25px 15px;
+    padding: 25px 22px;
     margin: 0px;
     top: 19px;
-    right: 0px;
+    right: -13px;
     z-index: 100;
     margin-top: 0px;
     transition-timing-function: linear;
@@ -1211,9 +1211,9 @@ html {
   }
 
   .page-heder__imge {
-    width: 20px;
-    height: 15px;
-    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
   }
   .page-heder__lise {
     margin-top: 10px;
@@ -1227,8 +1227,8 @@ html {
     cursor: pointer;
   }
   .one-section__inner {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     margin-left: 1220px;
     font-size: 13px;
     top: 466px;
@@ -1258,10 +1258,10 @@ html {
     padding-top: 29px;
     font-size: 14px;
   }
-  /* .one-section__p {
+  .one-section__p {
     margin: 0px;
-    margin-bottom: 2px;
-  } */
+    margin-bottom: 7px;
+  }
   .divs {
     display: flex;
     justify-content: space-between;
