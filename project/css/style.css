@@ -149,7 +149,10 @@ html {
   font-size: 8px;
   text-align: center;
 }
-
+.one-section__p {
+  margin: 0px;
+  margin-bottom: 2px;
+}
 .one-section__inner:hover {
   animation: pulse 2s infinite;
 }
@@ -802,7 +805,7 @@ html {
     height: 45px;
     margin-left: 602px;
     font-size: 9px;
-    top: 320px;
+    top: 325px;
     line-height: 1.4;
   }
   .one-section__inner::after {
@@ -1228,7 +1231,7 @@ html {
     height: 70px;
     margin-left: 1220px;
     font-size: 13px;
-    top: 464px;
+    top: 466px;
     line-height: 1.4;
   }
   .one-section__inner::after {
@@ -1255,6 +1258,10 @@ html {
     padding-top: 29px;
     font-size: 14px;
   }
+  /* .one-section__p {
+    margin: 0px;
+    margin-bottom: 2px;
+  } */
   .divs {
     display: flex;
     justify-content: space-between;
