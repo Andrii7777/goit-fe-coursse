@@ -215,13 +215,14 @@ html {
   font-weight: 100;
   margin: 0px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 .one-section__button {
   font-family: "Open Sans", sans-serif;
   background: #1ab0ce;
   color: #ffffff;
   border: none;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 11px;
   line-height: 1.2;
   margin: 0px;
@@ -374,6 +375,7 @@ html {
   margin: 0px;
   padding: 6px 10px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 .two-section__dive {
   padding-top: 20px;
